@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard Evaluasi RBI Aceh</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root{
+    --ink:#1f2a24;
+    --paper:#f7f5ef;
+    --card:#ffffff;
+    --line:#dcd7c9;
+    --green:#1b7a5b;
+    --green-soft:#cfe8de;
+    --purple:#6a5a9c;
+    --purple-soft:#e3ddf2;
+    --accent:#c9622d;
+    --muted:#6b6357;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background:var(--paper);
+    color:var(--ink);
+    line-height:1.5;
+  }
+  .mono{font-family:'Courier New', monospace;}
+  header{
+    padding:48px 24px 32px;
+    max-width:1100px;
+    margin:0 auto;
+    border-bottom:1px solid var(--line);
+  }
+  .eyebrow{
+    font-family:'Courier New', monospace;
+    font-size:12px;
+    letter-spacing:0.18em;
+    text-transform:uppercase;
+    color:var(--accent);
+    margin-bottom:10px;
+  }
+  h1{
+    font-size:clamp(28px, 5vw, 46px);
+    margin:0 0 8px;
+    font-weight:700;
+    letter-spacing:-0.01em;
+  }
+  .subtitle{
+    font-size:16px;
+    color:var(--muted);
+    max-width:680px;
+  }
+  .meta-row{
+    display:flex; flex-wrap:wrap; gap:24px;
+    margin-top:24px;
+    font-family:'Courier New', monospace;
+    font-size:13px;
+    color:var(--muted);
+  }
+  .meta-row b{color:var(--ink);}
+
+  main{max-width:1100px; margin:0 auto; padding:32px 24px 80px;}
+
+  .headline{
+    display:grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap:24px;
+    margin-bottom:40px;
+  }
+  @media (max-width: 800px){ .headline{grid-template-columns:1fr;} }
+
+  .big-stat{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:4px;
+    padding:28px;
+  }
+  .big-stat .number{
+    font-size:64px;
+    font-weight:700;
+    color:var(--green);
+    line-height:1;
+    font-family:'Georgia', serif;
+  }
+  .big-stat .number sup{font-size:28px; vertical-align:super;}
+  .big-stat .label{font-size:15px; color:var(--muted); margin-top:8px;}
+  .big-stat .detail{
+    margin-top:16px; font-size:13px; color:var(--ink);
+    border-top:1px solid var(--line); padding-top:14px;
+    font-family:'Courier New', monospace;
+  }
+
+  .stat-grid{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:16px;
+  }
+  .stat-card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:4px;
+    padding:20px;
+  }
+  .stat-card .v{font-size:28px; font-weight:700;}
+  .stat-card .l{font-size:13px; color:var(--muted); margin-top:4px;}
+  .stat-card.green .v{color:var(--green);}
+  .stat-card.purple .v{color:var(--purple);}
+  .stat-card.accent .v{color:var(--accent);}
+
+  section{margin-bottom:56px;}
+  .section-head{
+    display:flex; align-items:baseline; gap:12px;
+    margin-bottom:6px;
+    border-bottom:2px solid var(--ink);
+    padding-bottom:8px;
+  }
+  .section-num{
+    font-family:'Courier New', monospace;
+    font-size:13px; color:var(--accent); font-weight:700;
+  }
+  .section-head h2{font-size:22px; margin:0;}
+  .section-desc{color:var(--muted); font-size:14px; max-width:720px; margin:10px 0 20px;}
+
+  .chart-card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:4px;
+    padding:20px;
+  }
+  .chart-wrap{position:relative; height:380px;}
+  .chart-wrap.tall{height:460px;}
+
+  .grid-2{display:grid; grid-template-columns:1fr 1fr; gap:20px;}
+  @media (max-width:800px){ .grid-2{grid-template-columns:1fr;} }
+
+  table{
+    width:100%; border-collapse:collapse; font-size:14px;
+    background:var(--card); border:1px solid var(--line);
+  }
+  th, td{
+    text-align:left; padding:10px 14px; border-bottom:1px solid var(--line);
+  }
+  th{
+    font-family:'Courier New', monospace; font-size:12px;
+    text-transform:uppercase; letter-spacing:0.05em; color:var(--muted);
+    background:#efece2;
+  }
+  tr:last-child td{border-bottom:none;}
+  .pill{
+    display:inline-block; padding:2px 10px; border-radius:99px;
+    font-family:'Courier New', monospace; font-size:12px;
+  }
+  .pill.sig{background:var(--green-soft); color:var(--green);}
+  .pill.ns{background:#eee; color:var(--muted);}
+
+  .controls{
+    display:flex; gap:10px; margin-bottom:16px; flex-wrap:wrap;
+  }
+  .controls button{
+    font-family:'Courier New', monospace; font-size:13px;
+    border:1px solid var(--line); background:var(--card);
+    padding:8px 16px; border-radius:99px; cursor:pointer;
+    color:var(--ink); transition: all .15s ease;
+  }
+  .controls button.active{
+    background:var(--ink); color:var(--paper); border-color:var(--ink);
+  }
+  .controls button:hover{border-color:var(--ink);}
+
+  .note{
+    font-size:13px; color:var(--muted); margin-top:14px;
+    border-left:3px solid var(--accent); padding-left:12px;
+  }
+
+  footer{
+    border-top:1px solid var(--line);
+    padding:32px 24px; max-width:1100px; margin:0 auto;
+    font-size:13px; color:var(--muted);
+    font-family:'Courier New', monospace;
+  }
+  footer a{color:var(--green); text-decoration:none;}
+  footer a:hover{text-decoration:underline;}
+
+  .legend-inline{
+    display:flex; gap:18px; align-items:center; margin-bottom:14px;
+    font-size:13px; color:var(--muted); flex-wrap:wrap;
+  }
+  .legend-inline .dot{
+    display:inline-block; width:10px; height:10px; border-radius:50%;
+    margin-right:6px; vertical-align:middle;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">Evaluasi Program &middot; Kuasi-Eksperimental</div>
+  <h1>Dashboard Evaluasi RBI Aceh</h1>
+  <p class="subtitle">
+    Dampak Recovery Basic Income (transfer tunai Rp300.000/jiwa/bulan, 3 bulan)
+    terhadap pendapatan rumah tangga &mdash; Desa Pantai Perlak (Intervensi) vs
+    Desa Blang Guron (Kontrol), sampel matched 70 vs 70 (Propensity Score Matching).
+  </p>
+  <div class="meta-row">
+    <span><b>Desain:</b> DiD pada sampel PSM 1:1</span>
+    <span><b>n total:</b> 140 responden (420 observasi panel)</span>
+    <span><b>Periode:</b> 3 bulan observasi</span>
+    <span><b>Outcome:</b> Skor pendapatan ordinal (1&ndash;3)</span>
+  </div>
+</header>
+
+<main>
+
+  <!-- HEADLINE -->
+  <div class="headline">
+    <div class="big-stat">
+      <div class="number">+0.386</div>
+      <div class="label">Estimasi dampak DiD pada skor pendapatan ordinal (skala 1&ndash;3)</div>
+      <div class="detail">
+        SE (clustered) = 0.083 &nbsp;&middot;&nbsp; p &lt; 0.001 &nbsp;&middot;&nbsp;
+        Stabil dengan/tanpa kovariat demografis &nbsp;&middot;&nbsp;
+        Cohen's d = 0.79 (efek besar)
+      </div>
+    </div>
+    <div class="stat-grid">
+      <div class="stat-card green">
+        <div class="v">1.11 &rarr; 1.46</div>
+        <div class="l">Skor pendapatan Intervensi, Bulan 1 &rarr; 3 (p &lt; 0.001)</div>
+      </div>
+      <div class="stat-card purple">
+        <div class="v">1.06 &rarr; 1.01</div>
+        <div class="l">Skor pendapatan Kontrol, Bulan 1 &rarr; 3 (p = 0.083)</div>
+      </div>
+      <div class="stat-card accent">
+        <div class="v">0.364&ndash;0.403</div>
+        <div class="l">Rentang estimasi DiD pada 5 sensitivity check (re-matching seed)</div>
+      </div>
+      <div class="stat-card">
+        <div class="v">p &gt; 0.05</div>
+        <div class="l">Seluruh kovariat baseline setara pasca-PSM (balance check)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 1: TREND -->
+  <section>
+    <div class="section-head">
+      <span class="section-num">01</span>
+      <h2>Tren Pendapatan Selama Periode RBI</h2>
+    </div>
+    <p class="section-desc">
+      Rata-rata skor pendapatan ordinal per kelompok pada tiap bulan observasi.
+      Kelompok Intervensi mulai menanjak pada bulan ketiga, sementara Kontrol relatif stagnan.
+    </p>
+    <div class="chart-card">
+      <div class="chart-wrap"><canvas id="chartTrend"></canvas></div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: DiD -->
+  <section>
+    <div class="section-head">
+      <span class="section-num">02</span>
+      <h2>Estimasi Difference-in-Differences</h2>
+    </div>
+    <p class="section-desc">
+      Perubahan skor (Bulan 3 &minus; Bulan 1) per kelompok. Selisih kedua batang
+      di bawah adalah estimasi DiD &mdash; perkiraan dampak kausal program RBI.
+    </p>
+    <div class="grid-2">
+      <div class="chart-card">
+        <div class="chart-wrap"><canvas id="chartDiD"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <table>
+          <thead>
+            <tr><th>Koefisien</th><th>Estimasi</th><th>SE</th><th>p-value</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Intercept</td><td>1.057</td><td>0.028</td><td>&lt; 0.001</td></tr>
+            <tr><td>treat (selisih awal)</td><td>0.057</td><td>0.045</td><td>0.207</td></tr>
+            <tr><td>post (tren Kontrol)</td><td>&minus;0.043</td><td>0.025</td><td>0.082</td></tr>
+            <tr><td><b>treat &times; post (DiD)</b></td><td><b>0.386</b></td><td>0.083</td>
+              <td><span class="pill sig">&lt; 0.001</span></td></tr>
+          </tbody>
+        </table>
+        <p class="note">
+          Model dengan kovariat (usia, pendidikan, status menikah) menghasilkan
+          koefisien DiD identik: 0.386 (p &lt; 0.001) &mdash; estimasi tidak
+          terpengaruh perbedaan demografis.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: DISTRIBUTION -->
+  <section>
+    <div class="section-head">
+      <span class="section-num">03</span>
+      <h2>Distribusi Skor &amp; Kategori Pendapatan</h2>
+    </div>
+    <p class="section-desc">
+      Pilih bulan untuk melihat sebaran kategori pendapatan per kelompok.
+    </p>
+    <div class="controls" id="monthControls">
+      <button data-month="1" class="active">Bulan 1</button>
+      <button data-month="2">Bulan 2</button>
+      <button data-month="3">Bulan 3</button>
+    </div>
+    <div class="grid-2">
+      <div class="chart-card">
+        <div class="chart-wrap"><canvas id="chartCategory"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-wrap"><canvas id="chartBox"></canvas></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 4: TRAJECTORIES -->
+  <section>
+    <div class="section-head">
+      <span class="section-num">04</span>
+      <h2>Trajektori Individual</h2>
+    </div>
+    <p class="section-desc">
+      Setiap garis tipis adalah satu responden; garis tebal menunjukkan rata-rata kelompok per bulan.
+    </p>
+    <div class="legend-inline">
+      <span><span class="dot" style="background:var(--green)"></span>Intervensi</span>
+      <span><span class="dot" style="background:var(--purple)"></span>Kontrol</span>
+    </div>
+    <div class="chart-card">
+      <div class="chart-wrap tall"><canvas id="chartTraj"></canvas></div>
+    </div>
+  </section>
+
+  <!-- SECTION 5: EXPENDITURE -->
+  <section>
+    <div class="section-head">
+      <span class="section-num">05</span>
+      <h2>Pengeluaran Rumah Tangga (Intervensi)</h2>
+    </div>
+    <p class="section-desc">
+      Perbandingan deskriptif Bulan 1 vs Bulan 3 untuk kelompok Intervensi saja
+      &mdash; tidak ada kelompok kontrol untuk variabel ini, sehingga bukan
+      estimasi dampak kausal.
+    </p>
+    <div class="chart-card">
+      <div class="chart-wrap"><canvas id="chartExp"></canvas></div>
+    </div>
+  </section>
+
+  <!-- SECTION 6: ROBUSTNESS -->
+  <section>
+    <div class="section-head">
+      <span class="section-num">06</span>
+      <h2>Uji Robustness</h2>
+    </div>
+    <p class="section-desc">
+      Estimasi DiD model utama (dengan interval kepercayaan 95%) dibandingkan
+      hasil re-matching PSM dengan 5 seed berbeda.
+    </p>
+    <div class="chart-card">
+      <div class="chart-wrap tall"><canvas id="chartForest"></canvas></div>
+    </div>
+    <div class="grid-2" style="margin-top:20px;">
+      <div class="chart-card">
+        <h3 style="margin-top:0; font-size:15px;">Balance Check Pasca-PSM</h3>
+        <table id="balanceTable">
+          <thead><tr><th>Variabel</th><th>Intervensi</th><th>Kontrol</th><th>p-value</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="chart-card">
+        <h3 style="margin-top:0; font-size:15px;">Sensitivity (Re-matching, 5 seed)</h3>
+        <table id="sensTable">
+          <thead><tr><th>Seed</th><th>n pasangan</th><th>Estimasi DiD</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  Sumber data: RBI_Aceh_Matched70vs70_Clean.xlsx &middot; Analisis: R (lm, sandwich, lmtest) &middot;
+  Lihat <a href="scripts/analisis_RBI_Aceh.R">scripts/analisis_RBI_Aceh.R</a> untuk reproduksi penuh.
+</footer>
+
+<script>
+const COLORS = {
+  intervensi: '#1b7a5b',
+  intervensiSoft: 'rgba(27,122,91,0.15)',
+  kontrol: '#6a5a9c',
+  kontrolSoft: 'rgba(106,90,156,0.15)',
+  accent: '#c9622d',
+  ink: '#1f2a24',
+  grid: '#e4e0d3'
+};
+
+Chart.defaults.font.family = "'Courier New', monospace";
+Chart.defaults.color = '#6b6357';
+Chart.defaults.borderColor = COLORS.grid;
+
+let DATA = null;
+
+fetch('data/dashboard_data.json')
+  .then(r => r.json())
+  .then(d => { DATA = d; init(d); })
+  .catch(err => {
+    document.querySelector('main').insertAdjacentHTML('afterbegin',
+      '<p style="color:#c9622d">Gagal memuat data/dashboard_data.json. ' +
+      'Pastikan file ini dijalankan via server lokal (bukan dibuka langsung sebagai file://), ' +
+      'misalnya: <code>python3 -m http.server</code> di root folder repo.</p>');
+    console.error(err);
+  });
+
+function init(d){
+  buildTrendChart(d);
+  buildDiDChart(d);
+  buildCategoryChart(d, 1);
+  buildBoxChart(d, 1);
+  buildTrajChart(d);
+  buildExpChart(d);
+  buildForestChart(d);
+  buildTables(d);
+
+  document.querySelectorAll('#monthControls button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('#monthControls button').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const m = parseInt(btn.dataset.month, 10);
+      catChart.destroy();
+      boxChart.destroy();
+      buildCategoryChart(d, m);
+      buildBoxChart(d, m);
+    });
+  });
+}
+
+let catChart, boxChart;
+
+function buildTrendChart(d){
+  const months = [1,2,3];
+  const series = (kel) => months.map(m => {
+    const row = d.trend.find(r => r.kelompok === kel && r.bulan === m);
+    return row ? row.mean : null;
+  });
+  const errs = (kel) => months.map(m => {
+    const row = d.trend.find(r => r.kelompok === kel && r.bulan === m);
+    return row ? row.se : 0;
+  });
+
+  new Chart(document.getElementById('chartTrend'), {
+    type: 'line',
+    data: {
+      labels: ['Bulan 1','Bulan 2','Bulan 3'],
+      datasets: [
+        {
+          label: 'Intervensi',
+          data: series('Intervensi'),
+          borderColor: COLORS.intervensi,
+          backgroundColor: COLORS.intervensi,
+          tension: 0.25,
+          pointRadius: 5,
+          errorBars: errs('Intervensi')
+        },
+        {
+          label: 'Kontrol',
+          data: series('Kontrol'),
+          borderColor: COLORS.kontrol,
+          backgroundColor: COLORS.kontrol,
+          tension: 0.25,
+          pointRadius: 5,
+          errorBars: errs('Kontrol')
+        }
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'top', labels: { font: { size: 13 } } },
+        tooltip: {
+          callbacks: {
+            label: (ctx) => {
+              const err = ctx.dataset.errorBars[ctx.dataIndex];
+              return `${ctx.dataset.label}: ${ctx.parsed.y.toFixed(3)} (SE ${err.toFixed(3)})`;
+            }
+          }
+        }
+      },
+      scales: {
+        y: { title: { display:true, text:'Rata-rata Skor Pendapatan Ordinal' }, grid: { color: COLORS.grid } },
+        x: { grid: { display:false } }
+      }
+    }
+  });
+}
+
+function buildDiDChart(d){
+  const diffInt = d.trend.find(r=>r.kelompok==='Intervensi'&&r.bulan===3).mean
+                - d.trend.find(r=>r.kelompok==='Intervensi'&&r.bulan===1).mean;
+  const diffCtl = d.trend.find(r=>r.kelompok==='Kontrol'&&r.bulan===3).mean
+                - d.trend.find(r=>r.kelompok==='Kontrol'&&r.bulan===1).mean;
+
+  new Chart(document.getElementById('chartDiD'), {
+    type: 'bar',
+    data: {
+      labels: ['Intervensi','Kontrol'],
+      datasets: [{
+        label: 'Perubahan skor (B3 - B1)',
+        data: [diffInt, diffCtl],
+        backgroundColor: [COLORS.intervensi, COLORS.kontrol],
+        borderRadius: 4
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: (ctx) => `Perubahan: ${ctx.parsed.y.toFixed(3)}` } }
+      },
+      scales: {
+        y: { title: { display:true, text:'Perubahan Skor (B3 - B1)' }, grid: { color: COLORS.grid } },
+        x: { grid: { display:false } }
+      }
+    }
+  });
+}
+
+function buildCategoryChart(d, month){
+  const cats = ['< Rp1,2 juta', 'Rp1,2 - <2,5 juta', 'Rp2,5 - <4(,8) juta'];
+  const groups = ['Intervensi','Kontrol'];
+
+  const datasets = cats.map((cat, i) => ({
+    label: cat,
+    data: groups.map(g => {
+      const row = d.category.find(r => r.kelompok===g && r.bulan===month && r.pendapatan_kategori===cat);
+      return row ? row.prop * 100 : 0;
+    }),
+    backgroundColor: ['#bcd9cd','#7fb8a0','#1b7a5b'][i]
+  }));
+
+  catChart = new Chart(document.getElementById('chartCategory'), {
+    type: 'bar',
+    data: { labels: groups, datasets },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        title: { display: true, text: `Distribusi Kategori Pendapatan - Bulan ${month}`, font: {size: 13}, color: COLORS.ink },
+        legend: { position: 'bottom', labels: { font: {size: 11} } },
+        tooltip: { callbacks: { label: (ctx) => `${ctx.dataset.label}: ${ctx.parsed.y.toFixed(1)}%` } }
+      },
+      scales: {
+        x: { stacked: true, grid: { display:false } },
+        y: { stacked: true, max: 100, title: { display:true, text:'Proporsi (%)' }, grid: { color: COLORS.grid } }
+      }
+    }
+  });
+}
+
+function buildBoxChart(d, month){
+  // simple min/q1/median/q3/max approximation via sorted values, drawn as floating bars
+  const groups = ['Intervensi','Kontrol'];
+  const stats = groups.map(g => {
+    const vals = d.trajectories.filter(r => r.kelompok===g && r.bulan===month)
+                                .map(r => r.pendapatan_ordinal).sort((a,b)=>a-b);
+    const q = (p) => {
+      const idx = (vals.length-1) * p;
+      const lo = Math.floor(idx), hi = Math.ceil(idx);
+      return vals[lo] + (vals[hi]-vals[lo]) * (idx-lo);
+    };
+    return { min: vals[0], q1: q(0.25), median: q(0.5), q3: q(0.75), max: vals[vals.length-1] };
+  });
+
+  boxChart = new Chart(document.getElementById('chartBox'), {
+    type: 'bar',
+    data: {
+      labels: groups,
+      datasets: [
+        {
+          label: 'Rentang (min-max)',
+          data: stats.map(s => [s.min, s.max]),
+          backgroundColor: 'rgba(0,0,0,0.06)',
+          borderWidth: 0,
+          barThickness: 40
+        },
+        {
+          label: 'IQR (Q1-Q3)',
+          data: stats.map(s => [s.q1, s.q3]),
+          backgroundColor: [COLORS.intervensiSoft, COLORS.kontrolSoft],
+          borderColor: [COLORS.intervensi, COLORS.kontrol],
+          borderWidth: 2,
+          barThickness: 40
+        }
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        title: { display: true, text: `Distribusi (Min/IQR/Max) - Bulan ${month}`, font: {size: 13}, color: COLORS.ink },
+        legend: { position: 'bottom', labels: { font: {size: 11} } }
+      },
+      scales: {
+        y: { min: 0.5, max: 3.5, title: { display:true, text:'Skor Pendapatan Ordinal' }, grid: { color: COLORS.grid } },
+        x: { grid: { display:false } }
+      }
+    }
+  });
+}
+
+function buildTrajChart(d){
+  const datasets = [];
+  ['Intervensi','Kontrol'].forEach(g => {
+    const pairIds = [...new Set(d.trajectories.filter(r=>r.kelompok===g).map(r=>r.pair_id))];
+    const color = g === 'Intervensi' ? 'rgba(27,122,91,0.10)' : 'rgba(106,90,156,0.10)';
+    pairIds.forEach(pid => {
+      const rows = d.trajectories.filter(r => r.kelompok===g && r.pair_id===pid)
+                                  .sort((a,b)=>a.bulan-b.bulan);
+      datasets.push({
+        data: rows.map(r => ({x: r.bulan, y: r.pendapatan_ordinal})),
+        borderColor: color,
+        borderWidth: 1,
+        pointRadius: 0,
+        tension: 0.2,
+        order: 2
+      });
+    });
+    // mean line
+    const meanData = [1,2,3].map(m => {
+      const row = d.trend.find(r => r.kelompok===g && r.bulan===m);
+      return {x: m, y: row.mean};
+    });
+    datasets.push({
+      label: g,
+      data: meanData,
+      borderColor: g==='Intervensi' ? COLORS.intervensi : COLORS.kontrol,
+      backgroundColor: g==='Intervensi' ? COLORS.intervensi : COLORS.kontrol,
+      borderWidth: 3,
+      pointRadius: 4,
+      tension: 0.2,
+      order: 1
+    });
+  });
+
+  new Chart(document.getElementById('chartTraj'), {
+    type: 'line',
+    data: { datasets },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          labels: {
+            filter: (item) => item.text === 'Intervensi' || item.text === 'Kontrol'
+          }
+        },
+        tooltip: {
+          filter: (ctx) => ctx.dataset.label !== undefined
+        }
+      },
+      scales: {
+        x: { type:'linear', min:1, max:3, ticks:{stepSize:1, callback:(v)=>`Bulan ${v}`}, grid:{display:false} },
+        y: { min:0.5, max:3.5, title:{display:true, text:'Skor Pendapatan Ordinal'}, grid:{color:COLORS.grid} }
+      }
+    }
+  });
+}
+
+function buildExpChart(d){
+  const cats = [...new Set(d.expenditure.map(r=>r.kategori))];
+  const labelMap = {
+    pengeluaran_pokok: 'Pengeluaran Pokok',
+    belanja_makanan: 'Belanja Makanan',
+    belanja_kesehatan: 'Belanja Kesehatan',
+    belanja_pendidikan: 'Belanja Pendidikan'
+  };
+  const b1 = cats.map(c => d.expenditure.find(r=>r.kategori===c && r.bulan===1).mean);
+  const b3 = cats.map(c => d.expenditure.find(r=>r.kategori===c && r.bulan===3).mean);
+
+  new Chart(document.getElementById('chartExp'), {
+    type: 'bar',
+    data: {
+      labels: cats.map(c => labelMap[c] || c),
+      datasets: [
+        { label: 'Bulan 1', data: b1, backgroundColor: '#e3a98a', borderRadius: 3 },
+        { label: 'Bulan 3', data: b3, backgroundColor: '#8fcdb6', borderRadius: 3 }
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'top' },
+        tooltip: { callbacks: { label: (ctx) => `${ctx.dataset.label}: Rp${Math.round(ctx.parsed.y).toLocaleString('id-ID')}` } }
+      },
+      scales: {
+        y: { title: { display:true, text:'Rata-rata (Rp)' }, grid: { color: COLORS.grid },
+             ticks: { callback: (v) => 'Rp'+(v/1000).toLocaleString('id-ID')+'rb' } },
+        x: { grid: { display:false } }
+      }
+    }
+  });
+}
+
+function buildForestChart(d){
+  const main = [
+    { label: 'DiD (tanpa kovariat)', est: d.did_results.basic.estimate, se: d.did_results.basic.se },
+    { label: 'DiD (+kovariat)', est: d.did_results.covariate.estimate, se: d.did_results.covariate.se }
+  ];
+  const sens = d.sensitivity.slice(1).map(r => ({
+    label: `Sensitivity seed=${r.seed}`, est: r.DiD_estimate, se: null
+  }));
+  const all = [...main, ...sens];
+
+  new Chart(document.getElementById('chartForest'), {
+    type: 'bar',
+    data: {
+      labels: all.map(r => r.label),
+      datasets: [{
+        label: 'Estimasi DiD',
+        data: all.map(r => r.est),
+        backgroundColor: all.map((r,i) => i < 2 ? COLORS.intervensi : COLORS.accent),
+        borderRadius: 3,
+        barThickness: 18
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (ctx) => {
+              const r = all[ctx.dataIndex];
+              let s = `Estimasi: ${r.est.toFixed(3)}`;
+              if (r.se) s += ` (95% CI: ${(r.est-1.96*r.se).toFixed(3)} - ${(r.est+1.96*r.se).toFixed(3)})`;
+              return s;
+            }
+          }
+        }
+      },
+      scales: {
+        x: { title: { display:true, text:'Estimasi DiD' }, grid: { color: COLORS.grid } },
+        y: { grid: { display:false } }
+      }
+    }
+  });
+}
+
+function buildTables(d){
+  const balanceBody = document.querySelector('#balanceTable tbody');
+  d.balance_check.forEach(r => {
+    const sig = parseFloat(r.p_sesudah) < 0.05;
+    balanceBody.innerHTML += `<tr>
+      <td>${r.variabel}</td>
+      <td>${parseFloat(r.mean_Intervensi_sesudah).toFixed(2)}</td>
+      <td>${parseFloat(r.mean_Kontrol_sesudah).toFixed(2)}</td>
+      <td><span class="pill ${sig?'sig':'ns'}">${parseFloat(r.p_sesudah).toFixed(3)}</span></td>
+    </tr>`;
+  });
+
+  const sensBody = document.querySelector('#sensTable tbody');
+  d.sensitivity.forEach(r => {
+    sensBody.innerHTML += `<tr>
+      <td>${r.seed}</td>
+      <td>${r.n_pasangan}</td>
+      <td>${parseFloat(r.DiD_estimate).toFixed(3)}</td>
+    </tr>`;
+  });
+}
+</script>
+</body>
+</html>

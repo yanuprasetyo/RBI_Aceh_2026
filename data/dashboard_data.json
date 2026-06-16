@@ -1,0 +1,2849 @@
+{
+  "trend": [
+    {
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "mean": 1.1142857142857143,
+      "std": 0.320455162834309,
+      "count": 70,
+      "se": 0.038301717862847785
+    },
+    {
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "mean": 1.1142857142857143,
+      "std": 0.320455162834309,
+      "count": 70,
+      "se": 0.038301717862847785
+    },
+    {
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "mean": 1.457142857142857,
+      "std": 0.674283608797639,
+      "count": 70,
+      "se": 0.08059230600401784
+    },
+    {
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "mean": 1.0571428571428572,
+      "std": 0.23379132809659067,
+      "count": 70,
+      "se": 0.0279434083955329
+    },
+    {
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "mean": 1.0285714285714285,
+      "std": 0.16780151935092938,
+      "count": 70,
+      "se": 0.020056117661800967
+    },
+    {
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "mean": 1.0142857142857142,
+      "std": 0.11952286093343935,
+      "count": 70,
+      "se": 0.014285714285714284
+    }
+  ],
+  "category": [
+    {
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_kategori": "< Rp1,2 juta",
+      "n": 62,
+      "total": 70,
+      "prop": 0.8857142857142857
+    },
+    {
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_kategori": "Rp1,2 - <2,5 juta",
+      "n": 8,
+      "total": 70,
+      "prop": 0.11428571428571428
+    },
+    {
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_kategori": "< Rp1,2 juta",
+      "n": 62,
+      "total": 70,
+      "prop": 0.8857142857142857
+    },
+    {
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_kategori": "Rp1,2 - <2,5 juta",
+      "n": 8,
+      "total": 70,
+      "prop": 0.11428571428571428
+    },
+    {
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_kategori": "< Rp1,2 juta",
+      "n": 45,
+      "total": 70,
+      "prop": 0.6428571428571429
+    },
+    {
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_kategori": "Rp1,2 - <2,5 juta",
+      "n": 18,
+      "total": 70,
+      "prop": 0.2571428571428571
+    },
+    {
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_kategori": "Rp2,5 - <4(,8) juta",
+      "n": 7,
+      "total": 70,
+      "prop": 0.1
+    },
+    {
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_kategori": "< Rp1,2 juta",
+      "n": 66,
+      "total": 70,
+      "prop": 0.9428571428571428
+    },
+    {
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_kategori": "Rp1,2 - <2,5 juta",
+      "n": 4,
+      "total": 70,
+      "prop": 0.05714285714285714
+    },
+    {
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_kategori": "< Rp1,2 juta",
+      "n": 68,
+      "total": 70,
+      "prop": 0.9714285714285714
+    },
+    {
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_kategori": "Rp1,2 - <2,5 juta",
+      "n": 2,
+      "total": 70,
+      "prop": 0.02857142857142857
+    },
+    {
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_kategori": "< Rp1,2 juta",
+      "n": 69,
+      "total": 70,
+      "prop": 0.9857142857142858
+    },
+    {
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_kategori": "Rp1,2 - <2,5 juta",
+      "n": 1,
+      "total": 70,
+      "prop": 0.014285714285714285
+    }
+  ],
+  "trajectories": [
+    {
+      "pair_id": 0,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 0,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 0,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 0,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 0,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 0,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 1,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 1,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 1,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 1,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 1,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 1,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 2,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 2,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 2,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 2,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 2,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 2,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 3,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 3,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 3,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 3,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 3,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 3,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 4,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 4,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 4,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 4,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 4,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 4,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 5,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 5,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 5,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 5,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 5,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 5,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 6,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 6,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 6,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 6,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 6,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 6,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 7,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 7,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 7,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 7,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 7,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 7,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 8,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 8,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 8,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 8,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 8,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 8,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 9,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 9,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 9,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 9,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 9,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 9,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 10,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 10,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 10,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 10,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 10,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 10,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 11,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 11,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 11,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 11,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 11,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 11,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 12,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 12,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 12,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 12,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 12,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 12,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 13,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 13,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 13,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 13,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 13,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 13,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 14,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 14,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 14,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 14,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 14,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 14,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 15,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 15,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 15,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 15,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 15,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 15,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 16,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 16,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 16,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 16,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 16,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 16,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 17,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 17,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 17,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 17,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 17,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 17,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 18,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 18,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 18,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 18,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 18,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 18,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 19,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 19,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 19,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 19,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 19,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 19,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 20,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 20,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 20,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 20,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 20,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 20,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 21,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 21,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 21,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 21,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 21,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 21,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 22,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 22,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 22,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 22,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 22,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 22,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 23,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 23,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 23,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 23,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 23,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 23,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 24,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 24,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 24,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 24,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 24,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 24,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 25,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 25,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 25,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 25,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 25,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 25,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 26,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 26,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 26,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 3
+    },
+    {
+      "pair_id": 26,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 26,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 26,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 27,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 27,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 27,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 27,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 27,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 27,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 28,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 28,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 28,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 28,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 28,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 28,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 29,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 29,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 29,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 29,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 29,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 29,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 30,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 30,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 30,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 30,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 30,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 30,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 31,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 31,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 31,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 31,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 31,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 31,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 32,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 32,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 32,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 32,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 32,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 32,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 33,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 33,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 33,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 33,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 33,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 33,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 34,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 34,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 34,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 34,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 34,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 34,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 35,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 35,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 35,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 3
+    },
+    {
+      "pair_id": 35,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 35,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 35,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 36,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 36,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 36,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 3
+    },
+    {
+      "pair_id": 36,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 36,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 36,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 37,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 37,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 37,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 37,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 37,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 37,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 38,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 38,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 38,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 38,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 38,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 38,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 39,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 39,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 39,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 39,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 39,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 39,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 40,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 40,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 40,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 40,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 40,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 40,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 41,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 41,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 41,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 41,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 41,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 41,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 42,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 42,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 42,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 42,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 42,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 42,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 43,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 43,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 43,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 43,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 43,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 43,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 44,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 44,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 44,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 44,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 44,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 44,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 45,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 45,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 45,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 45,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 45,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 45,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 46,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 46,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 46,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 46,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 46,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 46,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 47,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 47,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 47,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 3
+    },
+    {
+      "pair_id": 47,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 47,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 47,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 48,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 48,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 48,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 48,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 48,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 48,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 49,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 49,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 49,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 49,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 49,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 49,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 50,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 50,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 50,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 50,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 50,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 50,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 51,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 51,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 51,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 51,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 51,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 51,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 52,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 52,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 52,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 52,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 52,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 52,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 53,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 53,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 53,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 53,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 53,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 53,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 54,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 54,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 54,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 3
+    },
+    {
+      "pair_id": 54,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 54,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 54,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 55,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 55,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 55,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 55,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 55,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 55,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 56,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 56,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 56,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 56,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 56,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 56,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 57,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 57,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 57,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 57,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 57,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 57,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 58,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 58,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 58,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 58,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 58,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 58,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 59,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 59,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 59,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 59,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 59,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 59,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 60,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 60,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 60,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 60,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 60,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 60,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 61,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 61,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 61,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 61,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 61,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 61,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 62,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 62,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 62,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 3
+    },
+    {
+      "pair_id": 62,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 62,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 62,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 63,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 63,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 63,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 63,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 63,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 63,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 64,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 64,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 64,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 64,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 64,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 64,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 65,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 65,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 65,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 65,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 65,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 65,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 66,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 66,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 66,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 2
+    },
+    {
+      "pair_id": 66,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 66,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 66,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 67,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 67,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 67,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 67,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 67,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 67,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 68,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 68,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 68,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 3
+    },
+    {
+      "pair_id": 68,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 68,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 68,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 69,
+      "kelompok": "Intervensi",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 69,
+      "kelompok": "Intervensi",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 69,
+      "kelompok": "Intervensi",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 69,
+      "kelompok": "Kontrol",
+      "bulan": 1,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 69,
+      "kelompok": "Kontrol",
+      "bulan": 2,
+      "pendapatan_ordinal": 1
+    },
+    {
+      "pair_id": 69,
+      "kelompok": "Kontrol",
+      "bulan": 3,
+      "pendapatan_ordinal": 1
+    }
+  ],
+  "expenditure": [
+    {
+      "kategori": "pengeluaran_pokok",
+      "bulan": 1,
+      "mean": 1635014.2857142857,
+      "n": 70
+    },
+    {
+      "kategori": "pengeluaran_pokok",
+      "bulan": 3,
+      "mean": 1554771.4285714286,
+      "n": 70
+    },
+    {
+      "kategori": "belanja_makanan",
+      "bulan": 1,
+      "mean": 1132608.6956521738,
+      "n": 69
+    },
+    {
+      "kategori": "belanja_makanan",
+      "bulan": 3,
+      "mean": 1030185.7142857143,
+      "n": 70
+    },
+    {
+      "kategori": "belanja_kesehatan",
+      "bulan": 1,
+      "mean": 16428.571428571428,
+      "n": 70
+    },
+    {
+      "kategori": "belanja_kesehatan",
+      "bulan": 3,
+      "mean": 45285.71428571428,
+      "n": 70
+    },
+    {
+      "kategori": "belanja_pendidikan",
+      "bulan": 1,
+      "mean": 126857.14285714286,
+      "n": 70
+    },
+    {
+      "kategori": "belanja_pendidikan",
+      "bulan": 3,
+      "mean": 113142.85714285714,
+      "n": 70
+    }
+  ],
+  "sensitivity": [
+    {
+      "seed": "original (42, file asli)",
+      "n_pasangan": 70,
+      "mean_Intervensi_B1": 1.114,
+      "mean_Intervensi_B3": 1.457,
+      "mean_Kontrol_B1": 1.057,
+      "mean_Kontrol_B3": 1.014,
+      "DiD_estimate": 0.386
+    },
+    {
+      "seed": 42,
+      "n_pasangan": 67,
+      "mean_Intervensi_B1": 1.1194,
+      "mean_Intervensi_B3": 1.4776,
+      "mean_Kontrol_B1": 1.0597,
+      "mean_Kontrol_B3": 1.0149,
+      "DiD_estimate": 0.403
+    },
+    {
+      "seed": 1,
+      "n_pasangan": 67,
+      "mean_Intervensi_B1": 1.1194,
+      "mean_Intervensi_B3": 1.4776,
+      "mean_Kontrol_B1": 1.0597,
+      "mean_Kontrol_B3": 1.0149,
+      "DiD_estimate": 0.403
+    },
+    {
+      "seed": 7,
+      "n_pasangan": 66,
+      "mean_Intervensi_B1": 1.1212,
+      "mean_Intervensi_B3": 1.4545,
+      "mean_Kontrol_B1": 1.0455,
+      "mean_Kontrol_B3": 1.0152,
+      "DiD_estimate": 0.3636
+    },
+    {
+      "seed": 99,
+      "n_pasangan": 67,
+      "mean_Intervensi_B1": 1.1194,
+      "mean_Intervensi_B3": 1.4627,
+      "mean_Kontrol_B1": 1.0448,
+      "mean_Kontrol_B3": 1.0149,
+      "DiD_estimate": 0.3731
+    },
+    {
+      "seed": 2024,
+      "n_pasangan": 68,
+      "mean_Intervensi_B1": 1.1176,
+      "mean_Intervensi_B3": 1.4706,
+      "mean_Kontrol_B1": 1.0588,
+      "mean_Kontrol_B3": 1.0147,
+      "DiD_estimate": 0.3971
+    }
+  ],
+  "balance_check": [
+    {
+      "variabel": "Usia (tahun)",
+      "mean_Intervensi_sebelum": 46.7663,
+      "mean_Kontrol_sebelum": 52.587,
+      "p_sebelum": 0.0001,
+      "mean_Intervensi_sesudah": 47.6286,
+      "mean_Kontrol_sesudah": 48.6571,
+      "p_sesudah": 0.685
+    },
+    {
+      "variabel": "Pendidikan (skor 0-4)",
+      "mean_Intervensi_sebelum": 1.4511,
+      "mean_Kontrol_sebelum": 2.7011,
+      "p_sebelum": 0,
+      "mean_Intervensi_sesudah": 2.2714,
+      "mean_Kontrol_sesudah": 2.3,
+      "p_sesudah": 0.8506
+    },
+    {
+      "variabel": "Status menikah (0/1)",
+      "mean_Intervensi_sebelum": 0.7989,
+      "mean_Kontrol_sebelum": 0.6902,
+      "p_sebelum": 0.0168,
+      "mean_Intervensi_sesudah": 0.6857,
+      "mean_Kontrol_sesudah": 0.8143,
+      "p_sesudah": 0.0801
+    },
+    {
+      "variabel": "Pendapatan ordinal B1 (1-4)",
+      "mean_Intervensi_sebelum": 1.0815,
+      "mean_Kontrol_sebelum": 1.288,
+      "p_sebelum": 0,
+      "mean_Intervensi_sesudah": 1.1143,
+      "mean_Kontrol_sesudah": 1.0571,
+      "p_sesudah": 0.2304
+    }
+  ],
+  "did_results": {
+    "basic": {
+      "estimate": 0.385714,
+      "se": 0.082582,
+      "p": 4.695e-06
+    },
+    "covariate": {
+      "estimate": 0.385714,
+      "se": 0.083035,
+      "p": 5.289e-06
+    },
+    "cohens_d": 0.793
+  },
+  "paired_t": {
+    "intervensi": {
+      "b1": 1.114286,
+      "b3": 1.457143,
+      "p": 4.3e-05
+    },
+    "kontrol": {
+      "b1": 1.057143,
+      "b3": 1.014286,
+      "p": 0.0832
+    }
+  }
+}

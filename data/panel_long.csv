@@ -1,0 +1,421 @@
+pair_id,resp_uid,kelompok,bulan,usia,lokasi,status_pernikahan,pendidikan_terakhir,anggota_keluarga_bekerja,pendapatan_numerik,pendapatan_ordinal,pendapatan_kategori,jumlah_sumber_pendapatan,punya_usaha,pengeluaran_pokok,belanja_makanan,belanja_kesehatan,belanja_pendidikan
+0,Intervensi_19,Intervensi,1,75,Dusun Karang,Duda/Janda,Tidak sekolah,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,600000.0,600000.0,0.0,0.0
+0,Intervensi_19,Intervensi,2,75,Dusun Karang,Duda/Janda,Tidak sekolah,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+0,Intervensi_19,Intervensi,3,75,Dusun Karang,Duda/Janda,Tidak sekolah,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,200000.0,200000.0,0.0,0.0
+0,Kontrol_24,Kontrol,1,37,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+0,Kontrol_24,Kontrol,2,37,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+0,Kontrol_24,Kontrol,3,37,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+1,Intervensi_42,Intervensi,1,65,Dusun Pringgan,Menikah,Tidak sekolah,,,1,"< Rp1,2 juta",1 sumber,Tidak,720000.0,300000.0,0.0,0.0
+1,Intervensi_42,Intervensi,2,65,Dusun Pringgan,Menikah,Tidak sekolah,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+1,Intervensi_42,Intervensi,3,65,Dusun Pringgan,Menikah,Tidak sekolah,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,870000.0,450000.0,0.0,0.0
+1,Kontrol_149,Kontrol,1,27,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+1,Kontrol_149,Kontrol,2,27,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+1,Kontrol_149,Kontrol,3,27,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+2,Intervensi_156,Intervensi,1,68,Dusun Melati,Duda/Janda,Tidak sekolah,,,1,"< Rp1,2 juta",1 sumber,Tidak,0.0,,0.0,0.0
+2,Intervensi_156,Intervensi,2,68,Dusun Melati,Duda/Janda,Tidak sekolah,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+2,Intervensi_156,Intervensi,3,68,Dusun Melati,Duda/Janda,Tidak sekolah,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,700000.0,500000.0,200000.0,0.0
+2,Kontrol_183,Kontrol,1,30,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+2,Kontrol_183,Kontrol,2,30,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+2,Kontrol_183,Kontrol,3,30,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+3,Intervensi_111,Intervensi,1,73,Dusun Melati,Duda/Janda,Tidak sekolah,,,1,"< Rp1,2 juta",1 sumber,Tidak,300000.0,300000.0,0.0,0.0
+3,Intervensi_111,Intervensi,2,73,Dusun Melati,Duda/Janda,Tidak sekolah,,363000.0,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+3,Intervensi_111,Intervensi,3,73,Dusun Melati,Duda/Janda,Tidak sekolah,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,300000.0,300000.0,0.0,0.0
+3,Kontrol_11,Kontrol,1,59,,Menikah,SD,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+3,Kontrol_11,Kontrol,2,59,,Menikah,SD,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+3,Kontrol_11,Kontrol,3,59,,Menikah,SD,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+4,Intervensi_148,Intervensi,1,51,Dusun Melati,Duda/Janda,SD,1.0,,1,"< Rp1,2 juta",1 sumber,Ya,1500000.0,1500000.0,0.0,0.0
+4,Intervensi_148,Intervensi,2,51,Dusun Melati,Duda/Janda,SD,1.0,,1,"< Rp1,2 juta",1 sumber,Ya,,,,
+4,Intervensi_148,Intervensi,3,51,Dusun Melati,Duda/Janda,SD,1.0,500000.0,1,"< Rp1,2 juta",1 sumber,Ya,1550000.0,1500000.0,0.0,0.0
+4,Kontrol_138,Kontrol,1,32,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+4,Kontrol_138,Kontrol,2,32,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+4,Kontrol_138,Kontrol,3,32,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+5,Intervensi_15,Intervensi,1,62,Dusun Karang,Menikah,Tidak sekolah,,,1,"< Rp1,2 juta",1 sumber,Tidak,2900000.0,2000000.0,0.0,500000.0
+5,Intervensi_15,Intervensi,2,62,Dusun Karang,Menikah,Tidak sekolah,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+5,Intervensi_15,Intervensi,3,62,Dusun Karang,Menikah,Tidak sekolah,,250000.0,1,"< Rp1,2 juta",1 sumber,Tidak,2085000.0,1500000.0,0.0,400000.0
+5,Kontrol_163,Kontrol,1,29,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+5,Kontrol_163,Kontrol,2,29,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+5,Kontrol_163,Kontrol,3,29,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+6,Intervensi_24,Intervensi,1,24,Dusun Pringgan,Belum menikah,SMA,,800000.0,1,"< Rp1,2 juta",1 sumber,Tidak,2875000.0,1500000.0,0.0,300000.0
+6,Intervensi_24,Intervensi,2,24,Dusun Pringgan,Belum menikah,SMA,,800000.0,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+6,Intervensi_24,Intervensi,3,24,Dusun Pringgan,Belum menikah,SMA,,1000000.0,1,"< Rp1,2 juta",1 sumber,Tidak,1250000.0,900000.0,0.0,0.0
+6,Kontrol_9,Kontrol,1,29,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+6,Kontrol_9,Kontrol,2,29,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+6,Kontrol_9,Kontrol,3,29,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+7,Intervensi_117,Intervensi,1,45,Dusun Melati,Menikah,SD,,,1,"< Rp1,2 juta",1 sumber,Tidak,1350000.0,900000.0,0.0,0.0
+7,Intervensi_117,Intervensi,2,45,Dusun Melati,Menikah,SD,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+7,Intervensi_117,Intervensi,3,45,Dusun Melati,Menikah,SD,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,1350000.0,500000.0,100000.0,300000.0
+7,Kontrol_106,Kontrol,1,47,,Belum menikah,SD,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+7,Kontrol_106,Kontrol,2,47,,Belum menikah,SD,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+7,Kontrol_106,Kontrol,3,47,,Belum menikah,SD,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+8,Intervensi_97,Intervensi,1,24,Dusun Melati,Belum menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,1410000.0,1000000.0,0.0,0.0
+8,Intervensi_97,Intervensi,2,24,Dusun Melati,Belum menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+8,Intervensi_97,Intervensi,3,24,Dusun Melati,Belum menikah,SMA,,1000000.0,1,"< Rp1,2 juta",1 sumber,Tidak,1460000.0,1200000.0,60000.0,0.0
+8,Kontrol_62,Kontrol,1,29,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+8,Kontrol_62,Kontrol,2,29,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+8,Kontrol_62,Kontrol,3,29,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+9,Intervensi_162,Intervensi,1,36,Dusun Melati,Belum menikah,SMP,,,1,"< Rp1,2 juta",1 sumber,Tidak,1400000.0,1000000.0,0.0,0.0
+9,Intervensi_162,Intervensi,2,36,Dusun Melati,Belum menikah,SMP,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+9,Intervensi_162,Intervensi,3,36,Dusun Melati,Belum menikah,SMP,,180000.0,1,"< Rp1,2 juta",1 sumber,Tidak,1160000.0,800000.0,0.0,0.0
+9,Kontrol_152,Kontrol,1,36,,Duda/Janda,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+9,Kontrol_152,Kontrol,2,36,,Duda/Janda,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+9,Kontrol_152,Kontrol,3,36,,Duda/Janda,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+10,Intervensi_16,Intervensi,1,52,Dusun Karang,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,1000000.0,900000.0,0.0,0.0
+10,Intervensi_16,Intervensi,2,52,Dusun Karang,Menikah,SMA,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+10,Intervensi_16,Intervensi,3,52,Dusun Karang,Menikah,SMA,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,1200000.0,1000000.0,0.0,0.0
+10,Kontrol_31,Kontrol,1,52,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+10,Kontrol_31,Kontrol,2,52,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+10,Kontrol_31,Kontrol,3,52,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+11,Intervensi_164,Intervensi,1,39,Dusun Melati,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,2400000.0,2000000.0,0.0,0.0
+11,Intervensi_164,Intervensi,2,39,Dusun Melati,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+11,Intervensi_164,Intervensi,3,39,Dusun Melati,Menikah,SMA,,50000.0,1,"< Rp1,2 juta",1 sumber,Tidak,1200000.0,500000.0,200000.0,350000.0
+11,Kontrol_143,Kontrol,1,39,,Menikah,SMA,2.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+11,Kontrol_143,Kontrol,2,39,,Menikah,SMA,2.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+11,Kontrol_143,Kontrol,3,39,,Menikah,SMA,2.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+12,Intervensi_124,Intervensi,1,24,Dusun Melati,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,2155000.0,1500000.0,250000.0,0.0
+12,Intervensi_124,Intervensi,2,24,Dusun Melati,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+12,Intervensi_124,Intervensi,3,24,Dusun Melati,Menikah,SMA,,2000000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Tidak,2950000.0,2000000.0,0.0,300000.0
+12,Kontrol_26,Kontrol,1,46,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+12,Kontrol_26,Kontrol,2,46,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+12,Kontrol_26,Kontrol,3,46,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+13,Intervensi_60,Intervensi,1,37,Dusun Pringgan,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,1350000.0,500000.0,0.0,500000.0
+13,Intervensi_60,Intervensi,2,37,Dusun Pringgan,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+13,Intervensi_60,Intervensi,3,37,Dusun Pringgan,Menikah,SMA,,1500000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Tidak,1150000.0,800000.0,0.0,200000.0
+13,Kontrol_14,Kontrol,1,37,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+13,Kontrol_14,Kontrol,2,37,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+13,Kontrol_14,Kontrol,3,37,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+14,Intervensi_18,Intervensi,1,78,Dusun Karang,Duda/Janda,Tidak sekolah,,,1,"< Rp1,2 juta",1 sumber,Tidak,600000.0,500000.0,0.0,0.0
+14,Intervensi_18,Intervensi,2,78,Dusun Karang,Duda/Janda,Tidak sekolah,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+14,Intervensi_18,Intervensi,3,78,Dusun Karang,Duda/Janda,Tidak sekolah,,,1,"< Rp1,2 juta",1 sumber,Tidak,370000.0,300000.0,70000.0,0.0
+14,Kontrol_18,Kontrol,1,40,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+14,Kontrol_18,Kontrol,2,40,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+14,Kontrol_18,Kontrol,3,40,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+15,Intervensi_169,Intervensi,1,36,Dusun Melati,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,3680000.0,3000000.0,0.0,0.0
+15,Intervensi_169,Intervensi,2,36,Dusun Melati,Menikah,SMA,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+15,Intervensi_169,Intervensi,3,36,Dusun Melati,Menikah,SMA,,1000000.0,1,"< Rp1,2 juta",1 sumber,Tidak,1200000.0,750000.0,0.0,0.0
+15,Kontrol_47,Kontrol,1,36,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+15,Kontrol_47,Kontrol,2,36,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+15,Kontrol_47,Kontrol,3,36,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+16,Intervensi_75,Intervensi,1,29,Dusun Melati,Belum menikah,SMA,4.0,500000.0,1,"< Rp1,2 juta",1 sumber,Ya,2200000.0,1500000.0,0.0,0.0
+16,Intervensi_75,Intervensi,2,29,Dusun Melati,Belum menikah,SMA,4.0,500000.0,1,"< Rp1,2 juta",1 sumber,Ya,,,,
+16,Intervensi_75,Intervensi,3,29,Dusun Melati,Belum menikah,SMA,,500000.0,1,"< Rp1,2 juta",1 sumber,Ya,2800000.0,1800000.0,0.0,0.0
+16,Kontrol_115,Kontrol,1,55,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+16,Kontrol_115,Kontrol,2,55,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+16,Kontrol_115,Kontrol,3,55,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+17,Intervensi_119,Intervensi,1,76,Dusun Melati,Menikah,SD,,,1,"< Rp1,2 juta",1 sumber,Tidak,1350000.0,1000000.0,0.0,0.0
+17,Intervensi_119,Intervensi,2,76,Dusun Melati,Menikah,SD,,363000.0,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+17,Intervensi_119,Intervensi,3,76,Dusun Melati,Menikah,SD,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,1350000.0,500000.0,100000.0,300000.0
+17,Kontrol_169,Kontrol,1,50,,Belum menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+17,Kontrol_169,Kontrol,2,50,,Belum menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+17,Kontrol_169,Kontrol,3,50,,Belum menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+18,Intervensi_175,Intervensi,1,56,Dusun Melati,Menikah,SMP,,,1,"< Rp1,2 juta",1 sumber,Tidak,1840000.0,1500000.0,0.0,0.0
+18,Intervensi_175,Intervensi,2,56,Dusun Melati,Menikah,SMP,,363000.0,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+18,Intervensi_175,Intervensi,3,56,Dusun Melati,Menikah,SMP,,,1,"< Rp1,2 juta",1 sumber,Tidak,820000.0,600000.0,0.0,0.0
+18,Kontrol_165,Kontrol,1,35,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+18,Kontrol_165,Kontrol,2,35,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+18,Kontrol_165,Kontrol,3,35,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+19,Intervensi_65,Intervensi,1,55,Dusun Pringgan,Menikah,SMP,,,1,"< Rp1,2 juta",1 sumber,Tidak,2000000.0,1500000.0,0.0,0.0
+19,Intervensi_65,Intervensi,2,55,Dusun Pringgan,Menikah,SMP,,363000.0,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+19,Intervensi_65,Intervensi,3,55,Dusun Pringgan,Menikah,SMP,,1000000.0,1,"< Rp1,2 juta",1 sumber,Tidak,2900000.0,1500000.0,0.0,600000.0
+19,Kontrol_162,Kontrol,1,55,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+19,Kontrol_162,Kontrol,2,55,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+19,Kontrol_162,Kontrol,3,55,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+20,Intervensi_67,Intervensi,1,28,Dusun Pringgan,Belum menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,2100000.0,1500000.0,0.0,0.0
+20,Intervensi_67,Intervensi,2,28,Dusun Pringgan,Belum menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+20,Intervensi_67,Intervensi,3,28,Dusun Pringgan,Belum menikah,SMA,,1000000.0,1,"< Rp1,2 juta",1 sumber,Tidak,2800000.0,1500000.0,0.0,600000.0
+20,Kontrol_8,Kontrol,1,54,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+20,Kontrol_8,Kontrol,2,54,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+20,Kontrol_8,Kontrol,3,54,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+21,Intervensi_31,Intervensi,1,86,Dusun Pringgan,Duda/Janda,Tidak sekolah,,,1,"< Rp1,2 juta",1 sumber,Tidak,900000.0,300000.0,0.0,0.0
+21,Intervensi_31,Intervensi,2,86,Dusun Pringgan,Duda/Janda,Tidak sekolah,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+21,Intervensi_31,Intervensi,3,86,Dusun Pringgan,Duda/Janda,Tidak sekolah,,600000.0,1,"< Rp1,2 juta",1 sumber,Tidak,950000.0,650000.0,0.0,0.0
+21,Kontrol_65,Kontrol,1,48,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+21,Kontrol_65,Kontrol,2,48,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+21,Kontrol_65,Kontrol,3,48,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+22,Intervensi_147,Intervensi,1,31,Dusun Melati,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,2200000.0,2000000.0,0.0,0.0
+22,Intervensi_147,Intervensi,2,31,Dusun Melati,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+22,Intervensi_147,Intervensi,3,31,Dusun Melati,Menikah,SMA,,750000.0,1,"< Rp1,2 juta",1 sumber,Tidak,615000.0,100000.0,65000.0,200000.0
+22,Kontrol_174,Kontrol,1,31,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+22,Kontrol_174,Kontrol,2,31,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+22,Kontrol_174,Kontrol,3,31,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+23,Intervensi_104,Intervensi,1,42,Dusun Melati,Menikah,SMA,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,1730000.0,800000.0,0.0,330000.0
+23,Intervensi_104,Intervensi,2,42,Dusun Melati,Menikah,SMA,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+23,Intervensi_104,Intervensi,3,42,Dusun Melati,Menikah,SMA,,900000.0,1,"< Rp1,2 juta",1 sumber,Tidak,1830000.0,1200000.0,0.0,230000.0
+23,Kontrol_68,Kontrol,1,37,,Cerai,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+23,Kontrol_68,Kontrol,2,37,,Cerai,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+23,Kontrol_68,Kontrol,3,37,,Cerai,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+24,Intervensi_120,Intervensi,1,69,Dusun Melati,Menikah,SD,,,1,"< Rp1,2 juta",1 sumber,Tidak,1350000.0,1000000.0,0.0,0.0
+24,Intervensi_120,Intervensi,2,69,Dusun Melati,Menikah,SD,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+24,Intervensi_120,Intervensi,3,69,Dusun Melati,Menikah,SD,,363000.0,1,"< Rp1,2 juta",1 sumber,Tidak,1350000.0,500000.0,100000.0,300000.0
+24,Kontrol_5,Kontrol,1,28,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+24,Kontrol_5,Kontrol,2,28,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+24,Kontrol_5,Kontrol,3,28,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+25,Intervensi_76,Intervensi,1,25,Dusun Melati,Belum menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,2200000.0,1500000.0,0.0,0.0
+25,Intervensi_76,Intervensi,2,25,Dusun Melati,Belum menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+25,Intervensi_76,Intervensi,3,25,Dusun Melati,Belum menikah,SMA,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,2800000.0,1800000.0,0.0,0.0
+25,Kontrol_28,Kontrol,1,51,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+25,Kontrol_28,Kontrol,2,51,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+25,Kontrol_28,Kontrol,3,51,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+26,Intervensi_159,Intervensi,1,45,Dusun Melati,Menikah,SMA,1.0,,1,"< Rp1,2 juta",1 sumber,Ya,2350000.0,2000000.0,0.0,0.0
+26,Intervensi_159,Intervensi,2,45,Dusun Melati,Menikah,SMA,1.0,363000.0,1,"< Rp1,2 juta",1 sumber,Ya,,,,
+26,Intervensi_159,Intervensi,3,45,Dusun Melati,Menikah,SMA,1.0,3000000.0,3,"Rp2,5 - <4(,8) juta",1 sumber,Ya,1950000.0,1500000.0,100000.0,0.0
+26,Kontrol_21,Kontrol,1,66,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+26,Kontrol_21,Kontrol,2,66,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+26,Kontrol_21,Kontrol,3,66,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+27,Intervensi_2,Intervensi,1,55,Dusun Karang,Menikah,SMA,,1600000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Tidak,600000.0,600000.0,0.0,0.0
+27,Intervensi_2,Intervensi,2,55,Dusun Karang,Menikah,SMA,,1600000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Tidak,,,,
+27,Intervensi_2,Intervensi,3,55,Dusun Karang,Menikah,SMA,,1600000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Tidak,525000.0,300000.0,65000.0,0.0
+27,Kontrol_33,Kontrol,1,80,,Duda/Janda,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+27,Kontrol_33,Kontrol,2,80,,Duda/Janda,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+27,Kontrol_33,Kontrol,3,80,,Duda/Janda,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+28,Intervensi_46,Intervensi,1,32,Dusun Pringgan,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,980000.0,800000.0,0.0,0.0
+28,Intervensi_46,Intervensi,2,32,Dusun Pringgan,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+28,Intervensi_46,Intervensi,3,32,Dusun Pringgan,Menikah,SMA,,1200000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Tidak,1340000.0,1000000.0,0.0,0.0
+28,Kontrol_45,Kontrol,1,27,,Belum menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+28,Kontrol_45,Kontrol,2,27,,Belum menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+28,Kontrol_45,Kontrol,3,27,,Belum menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+29,Intervensi_172,Intervensi,1,34,Dusun Melati,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,2900000.0,2000000.0,0.0,500000.0
+29,Intervensi_172,Intervensi,2,34,Dusun Melati,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+29,Intervensi_172,Intervensi,3,34,Dusun Melati,Menikah,SMA,,1600000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Tidak,1600000.0,600000.0,0.0,300000.0
+29,Kontrol_139,Kontrol,1,49,,Duda/Janda,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+29,Kontrol_139,Kontrol,2,49,,Duda/Janda,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+29,Kontrol_139,Kontrol,3,49,,Duda/Janda,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+30,Intervensi_176,Intervensi,1,49,Dusun Melati,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,1800000.0,1500000.0,0.0,0.0
+30,Intervensi_176,Intervensi,2,49,Dusun Melati,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+30,Intervensi_176,Intervensi,3,49,Dusun Melati,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,820000.0,600000.0,0.0,0.0
+30,Kontrol_147,Kontrol,1,70,,Menikah,SMP,3.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+30,Kontrol_147,Kontrol,2,70,,Menikah,SMP,3.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+30,Kontrol_147,Kontrol,3,70,,Menikah,SMP,3.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+31,Intervensi_115,Intervensi,1,40,Dusun Melati,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,4050000.0,2000000.0,0.0,1500000.0
+31,Intervensi_115,Intervensi,2,40,Dusun Melati,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+31,Intervensi_115,Intervensi,3,40,Dusun Melati,Menikah,SMA,,700000.0,1,"< Rp1,2 juta",1 sumber,Tidak,1190000.0,700000.0,0.0,0.0
+31,Kontrol_119,Kontrol,1,40,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+31,Kontrol_119,Kontrol,2,40,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+31,Kontrol_119,Kontrol,3,40,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+32,Intervensi_108,Intervensi,1,28,Dusun Melati,Menikah,SMP,,1500000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Tidak,880000.0,500000.0,0.0,0.0
+32,Intervensi_108,Intervensi,2,28,Dusun Melati,Menikah,SMP,,1500000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Tidak,,,,
+32,Intervensi_108,Intervensi,3,28,Dusun Melati,Menikah,SMP,,1500000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Tidak,933000.0,363000.0,70000.0,0.0
+32,Kontrol_29,Kontrol,1,39,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+32,Kontrol_29,Kontrol,2,39,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+32,Kontrol_29,Kontrol,3,39,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+33,Intervensi_122,Intervensi,1,38,Dusun Melati,Belum menikah,SMP,,,1,"< Rp1,2 juta",1 sumber,Tidak,1000000.0,800000.0,0.0,0.0
+33,Intervensi_122,Intervensi,2,38,Dusun Melati,Belum menikah,SMP,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+33,Intervensi_122,Intervensi,3,38,Dusun Melati,Belum menikah,SMP,,600000.0,1,"< Rp1,2 juta",1 sumber,Tidak,500000.0,500000.0,0.0,0.0
+33,Kontrol_39,Kontrol,1,43,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+33,Kontrol_39,Kontrol,2,43,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+33,Kontrol_39,Kontrol,3,43,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+34,Intervensi_11,Intervensi,1,37,Dusun Karang,Menikah,SMP,,,1,"< Rp1,2 juta",1 sumber,Tidak,1430000.0,1000000.0,0.0,30000.0
+34,Intervensi_11,Intervensi,2,37,Dusun Karang,Menikah,SMP,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+34,Intervensi_11,Intervensi,3,37,Dusun Karang,Menikah,SMP,,,1,"< Rp1,2 juta",1 sumber,Tidak,2280000.0,2000000.0,0.0,30000.0
+34,Kontrol_113,Kontrol,1,39,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+34,Kontrol_113,Kontrol,2,39,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+34,Kontrol_113,Kontrol,3,39,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+35,Intervensi_182,Intervensi,1,41,Dusun Melati,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,1350000.0,1000000.0,0.0,0.0
+35,Intervensi_182,Intervensi,2,41,Dusun Melati,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+35,Intervensi_182,Intervensi,3,41,Dusun Melati,Menikah,SMA,,3500000.0,3,"Rp2,5 - <4(,8) juta",1 sumber,Tidak,2400000.0,2000000.0,0.0,0.0
+35,Kontrol_17,Kontrol,1,32,,Menikah,SMA,0.0,,2,"Rp1,2 - <2,5 juta",1 sumber,,,,,
+35,Kontrol_17,Kontrol,2,32,,Menikah,SMA,0.0,,2,"Rp1,2 - <2,5 juta",1 sumber,,,,,
+35,Kontrol_17,Kontrol,3,32,,Menikah,SMA,0.0,,2,"Rp1,2 - <2,5 juta",1 sumber,,,,,
+36,Intervensi_145,Intervensi,1,39,Dusun Melati,Menikah,SMP,,,1,"< Rp1,2 juta",1 sumber,Tidak,1170000.0,500000.0,0.0,500000.0
+36,Intervensi_145,Intervensi,2,39,Dusun Melati,Menikah,SMP,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+36,Intervensi_145,Intervensi,3,39,Dusun Melati,Menikah,SMP,,3000000.0,3,"Rp2,5 - <4(,8) juta",1 sumber,Tidak,2160000.0,1500000.0,60000.0,0.0
+36,Kontrol_117,Kontrol,1,39,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+36,Kontrol_117,Kontrol,2,39,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+36,Kontrol_117,Kontrol,3,39,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+37,Intervensi_6,Intervensi,1,61,Dusun Karang,Menikah,SD,,,1,"< Rp1,2 juta",1 sumber,Tidak,1050000.0,800000.0,0.0,0.0
+37,Intervensi_6,Intervensi,2,61,Dusun Karang,Menikah,SD,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+37,Intervensi_6,Intervensi,3,61,Dusun Karang,Menikah,SD,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,1250000.0,1000000.0,0.0,0.0
+37,Kontrol_27,Kontrol,1,41,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+37,Kontrol_27,Kontrol,2,41,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+37,Kontrol_27,Kontrol,3,41,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+38,Intervensi_27,Intervensi,1,24,Dusun Pringgan,Belum menikah,SMA,,1600000.0,2,"Rp1,2 - <2,5 juta",2 sumber,Tidak,1630000.0,500000.0,0.0,600000.0
+38,Intervensi_27,Intervensi,2,24,Dusun Pringgan,Belum menikah,SMA,,1600000.0,2,"Rp1,2 - <2,5 juta",2 sumber,Tidak,,,,
+38,Intervensi_27,Intervensi,3,24,Dusun Pringgan,Belum menikah,SMA,,1000000.0,1,"< Rp1,2 juta",2 sumber,Tidak,1760000.0,700000.0,0.0,500000.0
+38,Kontrol_1,Kontrol,1,59,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+38,Kontrol_1,Kontrol,2,59,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+38,Kontrol_1,Kontrol,3,59,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+39,Intervensi_100,Intervensi,1,64,Dusun Melati,Menikah,SD,,,1,"< Rp1,2 juta",1 sumber,Tidak,840000.0,500000.0,0.0,0.0
+39,Intervensi_100,Intervensi,2,64,Dusun Melati,Menikah,SD,,363000.0,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+39,Intervensi_100,Intervensi,3,64,Dusun Melati,Menikah,SD,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,750000.0,400000.0,0.0,200000.0
+39,Kontrol_46,Kontrol,1,42,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+39,Kontrol_46,Kontrol,2,42,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+39,Kontrol_46,Kontrol,3,42,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+40,Intervensi_101,Intervensi,1,62,Dusun Melati,Menikah,SD,,,1,"< Rp1,2 juta",1 sumber,Tidak,800000.0,500000.0,0.0,0.0
+40,Intervensi_101,Intervensi,2,62,Dusun Melati,Menikah,SD,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+40,Intervensi_101,Intervensi,3,62,Dusun Melati,Menikah,SD,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,750000.0,400000.0,0.0,200000.0
+40,Kontrol_44,Kontrol,1,44,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+40,Kontrol_44,Kontrol,2,44,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+40,Kontrol_44,Kontrol,3,44,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+41,Intervensi_10,Intervensi,1,44,Dusun Karang,Menikah,SMA,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,1430000.0,1000000.0,0.0,30000.0
+41,Intervensi_10,Intervensi,2,44,Dusun Karang,Menikah,SMA,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+41,Intervensi_10,Intervensi,3,44,Dusun Karang,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,2280000.0,2000000.0,0.0,30000.0
+41,Kontrol_54,Kontrol,1,65,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+41,Kontrol_54,Kontrol,2,65,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+41,Kontrol_54,Kontrol,3,65,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+42,Intervensi_70,Intervensi,1,79,Dusun Melati,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,2500000.0,1800000.0,400000.0,0.0
+42,Intervensi_70,Intervensi,2,79,Dusun Melati,Menikah,SMA,,363000.0,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+42,Intervensi_70,Intervensi,3,79,Dusun Melati,Menikah,SMA,,600000.0,1,"< Rp1,2 juta",1 sumber,Tidak,1800000.0,1500000.0,160000.0,0.0
+42,Kontrol_135,Kontrol,1,49,,Menikah,>=Diploma/S1+,0.0,,2,"Rp1,2 - <2,5 juta",1 sumber,,,,,
+42,Kontrol_135,Kontrol,2,49,,Menikah,>=Diploma/S1+,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+42,Kontrol_135,Kontrol,3,49,,Menikah,>=Diploma/S1+,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+43,Intervensi_44,Intervensi,1,29,Dusun Pringgan,Belum menikah,SMA,,1000000.0,1,"< Rp1,2 juta",1 sumber,Tidak,720000.0,300000.0,0.0,0.0
+43,Intervensi_44,Intervensi,2,29,Dusun Pringgan,Belum menikah,SMA,,1000000.0,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+43,Intervensi_44,Intervensi,3,29,Dusun Pringgan,Belum menikah,SMA,,800000.0,1,"< Rp1,2 juta",1 sumber,Tidak,870000.0,450000.0,0.0,0.0
+43,Kontrol_137,Kontrol,1,57,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+43,Kontrol_137,Kontrol,2,57,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+43,Kontrol_137,Kontrol,3,57,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+44,Intervensi_40,Intervensi,1,26,Dusun Pringgan,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,760000.0,300000.0,0.0,0.0
+44,Intervensi_40,Intervensi,2,26,Dusun Pringgan,Menikah,SMA,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+44,Intervensi_40,Intervensi,3,26,Dusun Pringgan,Menikah,SMA,,1000000.0,1,"< Rp1,2 juta",1 sumber,Tidak,1460000.0,1000000.0,0.0,0.0
+44,Kontrol_23,Kontrol,1,50,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+44,Kontrol_23,Kontrol,2,50,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+44,Kontrol_23,Kontrol,3,50,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+45,Intervensi_141,Intervensi,1,76,Dusun Melati,Duda/Janda,SD,,,1,"< Rp1,2 juta",1 sumber,Tidak,1180000.0,1000000.0,0.0,0.0
+45,Intervensi_141,Intervensi,2,76,Dusun Melati,Duda/Janda,SD,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+45,Intervensi_141,Intervensi,3,76,Dusun Melati,Duda/Janda,SD,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,463000.0,300000.0,120000.0,0.0
+45,Kontrol_36,Kontrol,1,55,,Duda/Janda,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+45,Kontrol_36,Kontrol,2,55,,Duda/Janda,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+45,Kontrol_36,Kontrol,3,55,,Duda/Janda,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+46,Intervensi_142,Intervensi,1,55,Dusun Melati,Menikah,SMA,,1200000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Tidak,1300000.0,1000000.0,0.0,120000.0
+46,Intervensi_142,Intervensi,2,55,Dusun Melati,Menikah,SMA,,1200000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Tidak,,,,
+46,Intervensi_142,Intervensi,3,55,Dusun Melati,Menikah,SMA,,1500000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Tidak,1383000.0,1000000.0,50000.0,0.0
+46,Kontrol_37,Kontrol,1,80,,Duda/Janda,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+46,Kontrol_37,Kontrol,2,80,,Duda/Janda,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+46,Kontrol_37,Kontrol,3,80,,Duda/Janda,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+47,Intervensi_137,Intervensi,1,54,Dusun Melati,Menikah,SMP,,,1,"< Rp1,2 juta",1 sumber,Tidak,2070000.0,1000000.0,0.0,70000.0
+47,Intervensi_137,Intervensi,2,54,Dusun Melati,Menikah,SMP,,363000.0,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+47,Intervensi_137,Intervensi,3,54,Dusun Melati,Menikah,SMP,,3000000.0,3,"Rp2,5 - <4(,8) juta",1 sumber,Ya,1950000.0,1500000.0,0.0,0.0
+47,Kontrol_4,Kontrol,1,53,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+47,Kontrol_4,Kontrol,2,53,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+47,Kontrol_4,Kontrol,3,53,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+48,Intervensi_39,Intervensi,1,53,Dusun Pringgan,Duda/Janda,SMP,,,1,"< Rp1,2 juta",1 sumber,Tidak,2200000.0,1500000.0,0.0,0.0
+48,Intervensi_39,Intervensi,2,53,Dusun Pringgan,Duda/Janda,SMP,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+48,Intervensi_39,Intervensi,3,53,Dusun Pringgan,Duda/Janda,SMP,,1000000.0,1,"< Rp1,2 juta",1 sumber,Tidak,950000.0,500000.0,150000.0,0.0
+48,Kontrol_69,Kontrol,1,58,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+48,Kontrol_69,Kontrol,2,58,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+48,Kontrol_69,Kontrol,3,58,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+49,Intervensi_178,Intervensi,1,46,Dusun Melati,Duda/Janda,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,1300000.0,1000000.0,0.0,0.0
+49,Intervensi_178,Intervensi,2,46,Dusun Melati,Duda/Janda,SMA,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+49,Intervensi_178,Intervensi,3,46,Dusun Melati,Duda/Janda,SMA,,1400000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Tidak,3900000.0,3000000.0,500000.0,0.0
+49,Kontrol_161,Kontrol,1,51,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+49,Kontrol_161,Kontrol,2,51,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+49,Kontrol_161,Kontrol,3,51,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+50,Intervensi_140,Intervensi,1,29,Dusun Melati,Menikah,SMA,,1000000.0,1,"< Rp1,2 juta",1 sumber,Tidak,1300000.0,1000000.0,0.0,0.0
+50,Intervensi_140,Intervensi,2,29,Dusun Melati,Menikah,SMA,,1000000.0,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+50,Intervensi_140,Intervensi,3,29,Dusun Melati,Menikah,SMA,,2000000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Tidak,2600000.0,2000000.0,100000.0,0.0
+50,Kontrol_63,Kontrol,1,50,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+50,Kontrol_63,Kontrol,2,50,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+50,Kontrol_63,Kontrol,3,50,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+51,Intervensi_171,Intervensi,1,38,Dusun Melati,Menikah,SMA,2.0,,1,"< Rp1,2 juta",1 sumber,Ya,2900000.0,2000000.0,0.0,500000.0
+51,Intervensi_171,Intervensi,2,38,Dusun Melati,Menikah,SMA,2.0,,1,"< Rp1,2 juta",1 sumber,Ya,,,,
+51,Intervensi_171,Intervensi,3,38,Dusun Melati,Menikah,SMA,,1600000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Ya,1600000.0,600000.0,0.0,300000.0
+51,Kontrol_3,Kontrol,1,59,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+51,Kontrol_3,Kontrol,2,59,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+51,Kontrol_3,Kontrol,3,59,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+52,Intervensi_73,Intervensi,1,55,Dusun Melati,Menikah,SMA,,2000000.0,2,"Rp1,2 - <2,5 juta",2 sumber,Tidak,2200000.0,1500000.0,0.0,0.0
+52,Intervensi_73,Intervensi,2,55,Dusun Melati,Menikah,SMA,,2000000.0,2,"Rp1,2 - <2,5 juta",2 sumber,Tidak,,,,
+52,Intervensi_73,Intervensi,3,55,Dusun Melati,Menikah,SMA,,1500000.0,2,"Rp1,2 - <2,5 juta",2 sumber,Tidak,2800000.0,1800000.0,0.0,0.0
+52,Kontrol_145,Kontrol,1,63,,Menikah,SMA,3.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+52,Kontrol_145,Kontrol,2,63,,Menikah,SMA,3.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+52,Kontrol_145,Kontrol,3,63,,Menikah,SMA,3.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+53,Intervensi_43,Intervensi,1,46,Dusun Pringgan,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,720000.0,300000.0,0.0,0.0
+53,Intervensi_43,Intervensi,2,46,Dusun Pringgan,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+53,Intervensi_43,Intervensi,3,46,Dusun Pringgan,Menikah,SMA,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,870000.0,450000.0,0.0,0.0
+53,Kontrol_118,Kontrol,1,46,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+53,Kontrol_118,Kontrol,2,46,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+53,Kontrol_118,Kontrol,3,46,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+54,Intervensi_181,Intervensi,1,44,Dusun Melati,Menikah,SMA,2.0,2000000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Ya,1350000.0,1000000.0,0.0,0.0
+54,Intervensi_181,Intervensi,2,44,Dusun Melati,Menikah,SMA,2.0,2000000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Ya,,,,
+54,Intervensi_181,Intervensi,3,44,Dusun Melati,Menikah,SMA,2.0,3500000.0,3,"Rp2,5 - <4(,8) juta",1 sumber,Ya,2400000.0,2000000.0,0.0,0.0
+54,Kontrol_16,Kontrol,1,69,,Duda/Janda,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+54,Kontrol_16,Kontrol,2,69,,Duda/Janda,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+54,Kontrol_16,Kontrol,3,69,,Duda/Janda,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+55,Intervensi_127,Intervensi,1,64,Dusun Melati,Duda/Janda,SD,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,2000000.0,1500000.0,100000.0,0.0
+55,Intervensi_127,Intervensi,2,64,Dusun Melati,Duda/Janda,SD,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+55,Intervensi_127,Intervensi,3,64,Dusun Melati,Duda/Janda,SD,,1500000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Tidak,1250000.0,1000000.0,0.0,0.0
+55,Kontrol_64,Kontrol,1,51,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+55,Kontrol_64,Kontrol,2,51,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+55,Kontrol_64,Kontrol,3,51,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+56,Intervensi_165,Intervensi,1,36,Dusun Melati,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,1930000.0,1500000.0,0.0,100000.0
+56,Intervensi_165,Intervensi,2,36,Dusun Melati,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+56,Intervensi_165,Intervensi,3,36,Dusun Melati,Menikah,SMA,,1000000.0,1,"< Rp1,2 juta",1 sumber,Tidak,1930000.0,1500000.0,0.0,30000.0
+56,Kontrol_84,Kontrol,1,36,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+56,Kontrol_84,Kontrol,2,36,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+56,Kontrol_84,Kontrol,3,36,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+57,Intervensi_34,Intervensi,1,32,Dusun Pringgan,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,550000.0,250000.0,0.0,0.0
+57,Intervensi_34,Intervensi,2,32,Dusun Pringgan,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+57,Intervensi_34,Intervensi,3,32,Dusun Pringgan,Menikah,SMA,,100000.0,1,"< Rp1,2 juta",1 sumber,Tidak,600000.0,500000.0,0.0,0.0
+57,Kontrol_140,Kontrol,1,53,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+57,Kontrol_140,Kontrol,2,53,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+57,Kontrol_140,Kontrol,3,53,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+58,Intervensi_110,Intervensi,1,38,Dusun Melati,Menikah,>=Diploma/S1+,,,1,"< Rp1,2 juta",1 sumber,Tidak,800000.0,500000.0,0.0,0.0
+58,Intervensi_110,Intervensi,2,38,Dusun Melati,Menikah,>=Diploma/S1+,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+58,Intervensi_110,Intervensi,3,38,Dusun Melati,Menikah,>=Diploma/S1+,,1500000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Tidak,1100000.0,800000.0,0.0,0.0
+58,Kontrol_58,Kontrol,1,38,,Menikah,>=Diploma/S1+,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+58,Kontrol_58,Kontrol,2,38,,Menikah,>=Diploma/S1+,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+58,Kontrol_58,Kontrol,3,38,,Menikah,>=Diploma/S1+,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+59,Intervensi_89,Intervensi,1,25,Dusun Melati,Belum menikah,SMA,,2000000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Tidak,1350000.0,1000000.0,0.0,0.0
+59,Intervensi_89,Intervensi,2,25,Dusun Melati,Belum menikah,SMA,,2000000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Tidak,,,,
+59,Intervensi_89,Intervensi,3,25,Dusun Melati,Belum menikah,SMA,,1500000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Tidak,1870000.0,800000.0,170000.0,0.0
+59,Kontrol_75,Kontrol,1,60,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+59,Kontrol_75,Kontrol,2,60,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+59,Kontrol_75,Kontrol,3,60,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+60,Intervensi_8,Intervensi,1,57,Dusun Karang,Menikah,SMP,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,3500000.0,1500000.0,0.0,1500000.0
+60,Intervensi_8,Intervensi,2,57,Dusun Karang,Menikah,SMP,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+60,Intervensi_8,Intervensi,3,57,Dusun Karang,Menikah,SMP,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,670000.0,200000.0,70000.0,200000.0
+60,Kontrol_141,Kontrol,1,57,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+60,Kontrol_141,Kontrol,2,57,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+60,Kontrol_141,Kontrol,3,57,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+61,Intervensi_163,Intervensi,1,36,Dusun Melati,Menikah,SMA,1.0,1000000.0,1,"< Rp1,2 juta",1 sumber,Ya,2400000.0,2000000.0,0.0,0.0
+61,Intervensi_163,Intervensi,2,36,Dusun Melati,Menikah,SMA,1.0,1000000.0,1,"< Rp1,2 juta",1 sumber,Ya,,,,
+61,Intervensi_163,Intervensi,3,36,Dusun Melati,Menikah,SMA,,2000000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Tidak,1200000.0,500000.0,200000.0,350000.0
+61,Kontrol_170,Kontrol,1,57,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+61,Kontrol_170,Kontrol,2,57,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+61,Kontrol_170,Kontrol,3,57,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+62,Intervensi_160,Intervensi,1,28,Dusun Melati,Menikah,>=Diploma/S1+,,,1,"< Rp1,2 juta",1 sumber,Tidak,2350000.0,2000000.0,0.0,0.0
+62,Intervensi_160,Intervensi,2,28,Dusun Melati,Menikah,>=Diploma/S1+,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+62,Intervensi_160,Intervensi,3,28,Dusun Melati,Menikah,>=Diploma/S1+,,3000000.0,3,"Rp2,5 - <4(,8) juta",1 sumber,Tidak,1950000.0,1500000.0,100000.0,0.0
+62,Kontrol_38,Kontrol,1,66,,Duda/Janda,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+62,Kontrol_38,Kontrol,2,66,,Duda/Janda,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+62,Kontrol_38,Kontrol,3,66,,Duda/Janda,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+63,Intervensi_57,Intervensi,1,69,Dusun Pringgan,Duda/Janda,SD,,,1,"< Rp1,2 juta",1 sumber,Tidak,500000.0,300000.0,0.0,0.0
+63,Intervensi_57,Intervensi,2,69,Dusun Pringgan,Duda/Janda,SD,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+63,Intervensi_57,Intervensi,3,69,Dusun Pringgan,Duda/Janda,SD,,363000.0,1,"< Rp1,2 juta",1 sumber,Tidak,500000.0,500000.0,0.0,0.0
+63,Kontrol_103,Kontrol,1,69,,Duda/Janda,SD,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+63,Kontrol_103,Kontrol,2,69,,Duda/Janda,SD,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+63,Kontrol_103,Kontrol,3,69,,Duda/Janda,SD,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+64,Intervensi_177,Intervensi,1,60,Dusun Melati,Duda/Janda,>=Diploma/S1+,,,1,"< Rp1,2 juta",1 sumber,Tidak,1186000.0,1000000.0,0.0,0.0
+64,Intervensi_177,Intervensi,2,60,Dusun Melati,Duda/Janda,>=Diploma/S1+,,500000.0,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+64,Intervensi_177,Intervensi,3,60,Dusun Melati,Duda/Janda,>=Diploma/S1+,,2000000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Tidak,1160000.0,1000000.0,0.0,0.0
+64,Kontrol_172,Kontrol,1,57,,Menikah,>=Diploma/S1+,0.0,,2,"Rp1,2 - <2,5 juta",1 sumber,,,,,
+64,Kontrol_172,Kontrol,2,57,,Menikah,>=Diploma/S1+,0.0,,2,"Rp1,2 - <2,5 juta",1 sumber,,,,,
+64,Kontrol_172,Kontrol,3,57,,Menikah,>=Diploma/S1+,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+65,Intervensi_173,Intervensi,1,48,Dusun Melati,Menikah,SMP,2.0,2400000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Ya,2600000.0,2000000.0,0.0,300000.0
+65,Intervensi_173,Intervensi,2,48,Dusun Melati,Menikah,SMP,2.0,2400000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Ya,,,,
+65,Intervensi_173,Intervensi,3,48,Dusun Melati,Menikah,SMP,2.0,2400000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Ya,3500000.0,3000000.0,0.0,0.0
+65,Kontrol_32,Kontrol,1,49,,Menikah,SMP,0.0,,2,"Rp1,2 - <2,5 juta",1 sumber,,,,,
+65,Kontrol_32,Kontrol,2,49,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+65,Kontrol_32,Kontrol,3,49,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+66,Intervensi_74,Intervensi,1,55,Dusun Melati,Menikah,SMA,,300000.0,1,"< Rp1,2 juta",1 sumber,Tidak,2200000.0,1500000.0,0.0,0.0
+66,Intervensi_74,Intervensi,2,55,Dusun Melati,Menikah,SMA,,300000.0,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+66,Intervensi_74,Intervensi,3,55,Dusun Melati,Menikah,SMA,,1500000.0,2,"Rp1,2 - <2,5 juta",1 sumber,Tidak,2800000.0,1800000.0,0.0,0.0
+66,Kontrol_77,Kontrol,1,55,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+66,Kontrol_77,Kontrol,2,55,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+66,Kontrol_77,Kontrol,3,55,,Menikah,SMA,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+67,Intervensi_71,Intervensi,1,72,Dusun Melati,Menikah,SD,,,1,"< Rp1,2 juta",1 sumber,Tidak,2500000.0,1800000.0,400000.0,0.0
+67,Intervensi_71,Intervensi,2,72,Dusun Melati,Menikah,SD,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+67,Intervensi_71,Intervensi,3,72,Dusun Melati,Menikah,SD,,600000.0,1,"< Rp1,2 juta",1 sumber,Tidak,1800000.0,1500000.0,160000.0,0.0
+67,Kontrol_71,Kontrol,1,51,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+67,Kontrol_71,Kontrol,2,51,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+67,Kontrol_71,Kontrol,3,51,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+68,Intervensi_92,Intervensi,1,48,Dusun Melati,Menikah,SMA,,2000000.0,1,"< Rp1,2 juta",1 sumber,Tidak,2565000.0,500000.0,0.0,1500000.0
+68,Intervensi_92,Intervensi,2,48,Dusun Melati,Menikah,SMA,,2000000.0,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+68,Intervensi_92,Intervensi,3,48,Dusun Melati,Menikah,SMA,,2600000.0,3,"Rp2,5 - <4(,8) juta",1 sumber,Tidak,4600000.0,1500000.0,200000.0,2000000.0
+68,Kontrol_53,Kontrol,1,65,,Duda/Janda,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+68,Kontrol_53,Kontrol,2,65,,Duda/Janda,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+68,Kontrol_53,Kontrol,3,65,,Duda/Janda,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+69,Intervensi_179,Intervensi,1,57,Dusun Melati,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,1150000.0,1000000.0,0.0,0.0
+69,Intervensi_179,Intervensi,2,57,Dusun Melati,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,,,,
+69,Intervensi_179,Intervensi,3,57,Dusun Melati,Menikah,SMA,,,1,"< Rp1,2 juta",1 sumber,Tidak,1160000.0,1000000.0,0.0,0.0
+69,Kontrol_19,Kontrol,1,78,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+69,Kontrol_19,Kontrol,2,78,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
+69,Kontrol_19,Kontrol,3,78,,Menikah,SMP,0.0,,1,"< Rp1,2 juta",1 sumber,,,,,
