@@ -17,6 +17,8 @@
     --purple-soft:#e3ddf2;
     --accent:#c9622d;
     --muted:#6b6357;
+    --interp-bg:#fbf7ee;
+    --interp-border:#e0d3a8;
   }
   *{box-sizing:border-box;}
   body{
@@ -67,7 +69,7 @@
     display:grid;
     grid-template-columns: 1.3fr 1fr;
     gap:24px;
-    margin-bottom:40px;
+    margin-bottom:20px;
   }
   @media (max-width: 800px){ .headline{grid-template-columns:1fr;} }
 
@@ -174,6 +176,38 @@
     border-left:3px solid var(--accent); padding-left:12px;
   }
 
+  /* ==== Kotak Interpretasi Bahasa Awam ==== */
+  .interp{
+    background:var(--interp-bg);
+    border:1px solid var(--interp-border);
+    border-radius:4px;
+    padding:18px 20px;
+    margin-top:16px;
+    font-family:'Georgia', serif;
+    font-size:15px;
+    line-height:1.6;
+    color:#3a3326;
+  }
+  .interp .interp-label{
+    font-family:'Courier New', monospace;
+    font-size:11px;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--accent);
+    font-weight:700;
+    margin-bottom:8px;
+    display:flex;
+    align-items:center;
+    gap:6px;
+  }
+  .interp .interp-label::before{
+    content:"\1F4A1";
+    font-size:14px;
+  }
+  .interp p{margin:0 0 8px;}
+  .interp p:last-child{margin-bottom:0;}
+  .interp b{color:var(--ink);}
+
   footer{
     border-top:1px solid var(--line);
     padding:32px 24px; max-width:1100px; margin:0 auto;
@@ -244,6 +278,16 @@
     </div>
   </div>
 
+  <div class="interp" style="margin-bottom:40px;">
+    <div class="interp-label">Ringkasan untuk pembaca umum</div>
+    <p>
+      Program bantuan tunai RBI (Rp300.000 per orang per bulan, selama 3 bulan) terbukti
+      <b>meningkatkan pendapatan warga penerima secara nyata</b>, dibandingkan dengan warga
+      di desa lain yang tidak menerima bantuan. Hasil ini bukan kebetulan &mdash;
+      sudah diuji berulang kali dengan cara yang berbeda-beda, dan hasilnya tetap konsisten.
+    </p>
+  </div>
+
   <!-- SECTION 1: TREND -->
   <section>
     <div class="section-head">
@@ -256,6 +300,16 @@
     </p>
     <div class="chart-card">
       <div class="chart-wrap"><canvas id="chartTrend"></canvas></div>
+    </div>
+    <div class="interp">
+      <div class="interp-label">Apa artinya ini?</div>
+      <p>
+        Di awal program, pendapatan warga di kedua desa hampir sama. Setelah 3 bulan,
+        <b>warga yang menerima bantuan (Desa Pantai Perlak) pendapatannya naik</b>,
+        sedangkan warga di desa pembanding (Desa Blang Guron) pendapatannya
+        <b>tetap datar, bahkan sedikit menurun</b>. Garis yang semakin menjauh ke atas
+        inilah yang menunjukkan dampak program.
+      </p>
     </div>
   </section>
 
@@ -293,6 +347,17 @@
         </p>
       </div>
     </div>
+    <div class="interp">
+      <div class="interp-label">Apa artinya ini?</div>
+      <p>
+        Angka <b>+0.386</b> adalah perkiraan seberapa besar bantuan RBI mendorong
+        kenaikan pendapatan, setelah memperhitungkan bahwa kedua desa memang bisa saja
+        berbeda secara alami. Tanda bintang atau nilai <b>p &lt; 0,001</b> berarti
+        kemungkinan hasil ini muncul hanya karena kebetulan sangat kecil (kurang dari
+        1 banding 1000), sehingga bisa dipercaya sebagai efek nyata dari program,
+        bukan sekadar fluktuasi acak.
+      </p>
+    </div>
   </section>
 
   <!-- SECTION 3: DISTRIBUTION -->
@@ -317,6 +382,18 @@
         <div class="chart-wrap"><canvas id="chartBox"></canvas></div>
       </div>
     </div>
+    <div class="interp">
+      <div class="interp-label">Apa artinya ini?</div>
+      <p>
+        Grafik kiri menunjukkan berapa persen warga yang berada di kelompok pendapatan
+        rendah, sedang, dan tinggi pada bulan yang dipilih. Coba klik tombol
+        <b>"Bulan 3"</b> dan bandingkan dengan <b>"Bulan 1"</b> &mdash; pada kelompok
+        Intervensi, proporsi warga di kategori pendapatan lebih tinggi akan terlihat
+        membesar. Grafik kanan menunjukkan sebaran skor secara lebih rinci: kotak yang
+        bergeser ke atas berarti sebagian besar warga di kelompok itu mengalami
+        kenaikan pendapatan, bukan hanya segelintir orang saja.
+      </p>
+    </div>
   </section>
 
   <!-- SECTION 4: TRAJECTORIES -->
@@ -335,6 +412,18 @@
     <div class="chart-card">
       <div class="chart-wrap tall"><canvas id="chartTraj"></canvas></div>
     </div>
+    <div class="interp">
+      <div class="interp-label">Apa artinya ini?</div>
+      <p>
+        Setiap garis tipis mewakili satu keluarga yang mengikuti program ini. Karena
+        setiap keluarga punya kondisi berbeda-beda, garisnya naik-turun secara acak
+        &mdash; itu wajar. Yang lebih penting dilihat adalah <b>garis tebal</b>
+        (rata-rata kelompok): garis tebal hijau (Intervensi) cenderung naik dari waktu
+        ke waktu, sedangkan garis tebal ungu (Kontrol) relatif datar. Ini menunjukkan
+        bahwa kenaikan pendapatan bukan hanya dialami satu-dua keluarga, tetapi menjadi
+        <b>pola umum</b> di kelompok penerima bantuan.
+      </p>
+    </div>
   </section>
 
   <!-- SECTION 5: EXPENDITURE -->
@@ -350,6 +439,18 @@
     </p>
     <div class="chart-card">
       <div class="chart-wrap"><canvas id="chartExp"></canvas></div>
+    </div>
+    <div class="interp">
+      <div class="interp-label">Apa artinya ini?</div>
+      <p>
+        Grafik ini menunjukkan ke mana uang bantuan kemungkinan dibelanjakan oleh
+        keluarga penerima &mdash; misalnya untuk kebutuhan pokok, makanan, kesehatan,
+        atau pendidikan. <b>Perlu dicatat:</b> berbeda dari grafik-grafik sebelumnya,
+        di sini tidak ada desa pembanding. Jadi angka ini hanya menggambarkan
+        <b>perubahan pengeluaran</b> pada penerima bantuan, dan belum bisa dipastikan
+        seberapa besar perubahan itu murni disebabkan oleh program RBI atau oleh
+        faktor lain di luar program.
+      </p>
     </div>
   </section>
 
@@ -381,6 +482,18 @@
           <tbody></tbody>
         </table>
       </div>
+    </div>
+    <div class="interp">
+      <div class="interp-label">Apa artinya ini?</div>
+      <p>
+        Bagian ini adalah "uji tuntas" untuk memastikan hasil di atas bukan kebetulan
+        atau bias dari cara memilih responden pembanding. Peneliti mengulangi proses
+        pencocokan (matching) responden sebanyak <b>5 kali dengan cara berbeda-beda</b>,
+        dan setiap kali hasilnya tetap serupa: sekitar <b>+0,36 sampai +0,40</b>.
+        Tabel "Balance Check" menunjukkan bahwa kedua desa memang sudah cukup setara
+        sebelum dibandingkan (usia, pendidikan, dsb tidak berbeda signifikan), sehingga
+        perbandingan antar kedua desa ini adil dan hasilnya bisa dipercaya.
+      </p>
     </div>
   </section>
 
