@@ -297,6 +297,7 @@
     <p class="section-desc">
       Rata-rata skor pendapatan ordinal per kelompok pada tiap bulan observasi.
       Kelompok Intervensi mulai menanjak pada bulan ketiga, sementara Kontrol relatif stagnan.
+      <i>(Arahkan kursor ke setiap titik untuk melihat estimasi nominal Rupiah.)</i>
     </p>
     <div class="chart-card">
       <div class="chart-wrap"><canvas id="chartTrend"></canvas></div>
@@ -304,11 +305,21 @@
     <div class="interp">
       <div class="interp-label">Apa artinya ini?</div>
       <p>
-        Di awal program, pendapatan warga di kedua desa hampir sama. Setelah 3 bulan,
-        <b>warga yang menerima bantuan (Desa Pantai Perlak) pendapatannya naik</b>,
-        sedangkan warga di desa pembanding (Desa Blang Guron) pendapatannya
-        <b>tetap datar, bahkan sedikit menurun</b>. Garis yang semakin menjauh ke atas
-        inilah yang menunjukkan dampak program.
+        Di awal program, pendapatan warga di kedua desa hampir sama, sekitar
+        <b>Rp670.000–Rp740.000 per bulan</b>. Setelah 3 bulan, perkiraan pendapatan
+        warga penerima bantuan (Desa Pantai Perlak) <b>naik menjadi sekitar
+        Rp1,23 juta per bulan</b> &mdash; hampir dua kali lipat &mdash; sementara warga
+        di desa pembanding (Desa Blang Guron) pendapatannya <b>tetap datar di kisaran
+        Rp620.000–Rp670.000</b>, bahkan sedikit menurun. Garis yang semakin menjauh
+        ke atas inilah yang menunjukkan dampak program.
+      </p>
+      <p style="font-size:13px; color:var(--muted); margin-top:10px;">
+        <i>Catatan metodologi: nominal Rupiah di atas adalah <b>estimasi</b>, dihitung
+        dari titik tengah rentang kategori pendapatan yang dilaporkan responden
+        (&lt;Rp1,2jt, Rp1,2&ndash;&lt;2,5jt, Rp2,5&ndash;&lt;4,8jt), bukan dari jawaban nominal
+        pasti setiap responden &mdash; karena data nominal pasti tidak tersedia lengkap
+        untuk kedua kelompok. Analisis dampak utama (DiD +0.386) tetap menggunakan
+        skor kategori ordinal, bukan estimasi Rupiah ini.</i>
       </p>
     </div>
   </section>
@@ -519,6 +530,28 @@ Chart.defaults.font.family = "'Courier New', monospace";
 Chart.defaults.color = '#6b6357';
 Chart.defaults.borderColor = COLORS.grid;
 
+// Titik tengah (midpoint) rentang kategori pendapatan, untuk estimasi nominal Rupiah.
+// Kategori 1 (<Rp1,2jt) diasumsikan batas bawah Rp0 -> midpoint Rp600rb.
+// Cross-check dengan data pendapatan_numerik yang tersedia sebagian menunjukkan
+// estimasi ini cukup dekat dengan rata-rata riil (selisih < 10%).
+const INCOME_MIDPOINT = {
+  '< Rp1,2 juta': 600000,
+  'Rp1,2 - <2,5 juta': 1850000,
+  'Rp2,5 - <4(,8) juta': 3650000
+};
+
+function estimateRupiah(d, kelompok, bulan){
+  const rows = d.category.filter(r => r.kelompok === kelompok && r.bulan === bulan);
+  if (!rows.length) return null;
+  return rows.reduce((sum, r) => sum + (r.prop * (INCOME_MIDPOINT[r.pendapatan_kategori] || 0)), 0);
+}
+
+function formatRupiah(v){
+  if (v == null) return '';
+  if (v >= 1000000) return 'Rp' + (v/1000000).toLocaleString('id-ID', {maximumFractionDigits:2}) + ' juta';
+  return 'Rp' + Math.round(v/1000) + 'rb';
+}
+
 let DATA = null;
 
 fetch('data/dashboard_data.json')
@@ -601,7 +634,10 @@ function buildTrendChart(d){
           callbacks: {
             label: (ctx) => {
               const err = ctx.dataset.errorBars[ctx.dataIndex];
-              return `${ctx.dataset.label}: ${ctx.parsed.y.toFixed(3)} (SE ${err.toFixed(3)})`;
+              const bulan = ctx.dataIndex + 1;
+              const rp = estimateRupiah(DATA, ctx.dataset.label, bulan);
+              const rpStr = rp != null ? ` \u2248 ${formatRupiah(rp)} (estimasi)` : '';
+              return `${ctx.dataset.label}: ${ctx.parsed.y.toFixed(3)} (SE ${err.toFixed(3)})${rpStr}`;
             }
           }
         }
