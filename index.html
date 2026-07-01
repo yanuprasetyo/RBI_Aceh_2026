@@ -208,6 +208,83 @@
   .interp p:last-child{margin-bottom:0;}
   .interp b{color:var(--ink);}
 
+  /* ==== Kotak Glosarium Istilah ==== */
+  .glossary{
+    background:var(--card);
+    border:1px solid var(--green);
+    border-left:5px solid var(--green);
+    border-radius:4px;
+    padding:6px 24px 8px;
+    margin-bottom:32px;
+  }
+  .glossary summary{
+    cursor:pointer;
+    list-style:none;
+    padding:16px 0;
+    font-family:'Courier New', monospace;
+    font-size:13px;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    font-weight:700;
+    color:var(--green);
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+  .glossary summary::-webkit-details-marker{display:none;}
+  .glossary summary::before{
+    content:"\1F4D6";
+    font-size:16px;
+  }
+  .glossary summary::after{
+    content:"(klik untuk tutup/buka)";
+    margin-left:auto;
+    font-weight:400;
+    color:var(--muted);
+    text-transform:none;
+    letter-spacing:0;
+    font-size:12px;
+  }
+  .glossary-intro{
+    font-size:14px;
+    color:var(--muted);
+    margin:0 0 18px;
+    padding-bottom:16px;
+    border-bottom:1px solid var(--line);
+  }
+  .glossary-grid{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:18px 28px;
+    padding-bottom:20px;
+  }
+  @media (max-width:800px){ .glossary-grid{grid-template-columns:1fr;} }
+  .glossary-item .term{
+    font-family:'Georgia', serif;
+    font-weight:700;
+    font-size:15px;
+    color:var(--ink);
+    margin-bottom:4px;
+    display:flex;
+    align-items:baseline;
+    gap:8px;
+  }
+  .glossary-item .term .abbr{
+    font-family:'Courier New', monospace;
+    font-size:11px;
+    font-weight:400;
+    color:var(--accent);
+    background:var(--green-soft);
+    padding:1px 8px;
+    border-radius:99px;
+  }
+  .glossary-item .def{
+    font-size:14px;
+    color:#3a3326;
+    line-height:1.55;
+    margin:0;
+  }
+
   footer{
     border-top:1px solid var(--line);
     padding:32px 24px; max-width:1100px; margin:0 auto;
@@ -246,6 +323,80 @@
 </header>
 
 <main>
+
+  <!-- GLOSARIUM ISTILAH -->
+  <details class="glossary" open>
+    <summary>Sebelum mulai: penjelasan istilah yang dipakai di dashboard ini</summary>
+    <p class="glossary-intro">
+      Dashboard ini memakai beberapa istilah penelitian. Berikut penjelasan sederhananya,
+      supaya grafik dan angka di bawah lebih mudah dipahami meski Anda tidak punya latar
+      belakang statistik.
+    </p>
+    <div class="glossary-grid">
+      <div class="glossary-item">
+        <div class="term">Kuasi-eksperimen <span class="abbr">desain penelitian</span></div>
+        <p class="def">
+          Cara meneliti dampak sebuah program tanpa mengundi (acak) siapa yang menerima
+          dan siapa yang tidak &mdash; berbeda dari uji klinis obat, misalnya. Di sini,
+          satu desa menerima bantuan RBI dan satu desa lain (yang mirip kondisinya)
+          dijadikan pembanding, lalu dampaknya dihitung dengan hati-hati secara statistik.
+        </p>
+      </div>
+      <div class="glossary-item">
+        <div class="term">Propensity Score Matching <span class="abbr">PSM</span></div>
+        <p class="def">
+          Teknik untuk mencari "kembar statistik" &mdash; memasangkan satu warga penerima
+          bantuan dengan satu warga bukan penerima yang usia, pendidikan, dan latar
+          belakangnya semirip mungkin. Tujuannya supaya perbandingan antara dua kelompok
+          benar-benar adil, bukan membandingkan orang yang kondisinya jauh berbeda.
+        </p>
+      </div>
+      <div class="glossary-item">
+        <div class="term">Difference-in-Differences <span class="abbr">DiD</span></div>
+        <p class="def">
+          Cara menghitung dampak program dengan membandingkan <i>perubahan</i> pendapatan
+          (bukan cuma angka akhir) antara kelompok penerima dan kelompok pembanding.
+          Dengan begini, tren umum yang mungkin terjadi di kedua desa (misalnya musim
+          panen) bisa disingkirkan, sehingga yang tersisa benar-benar mendekati efek
+          murni dari program bantuan.
+        </p>
+      </div>
+      <div class="glossary-item">
+        <div class="term">Signifikansi statistik <span class="abbr">p-value</span></div>
+        <p class="def">
+          Angka yang menunjukkan seberapa besar kemungkinan hasil yang terlihat hanya
+          kebetulan belaka. Semakin kecil angkanya, semakin besar keyakinan bahwa hasil
+          itu nyata. Aturan umum yang dipakai peneliti: <b>p &lt; 0,05</b> dianggap
+          "signifikan" (kemungkinan kebetulan di bawah 5%).
+        </p>
+      </div>
+      <div class="glossary-item">
+        <div class="term">Ukuran dampak <span class="abbr">Cohen's d</span></div>
+        <p class="def">
+          Kalau p-value menjawab "apakah dampaknya nyata?", ukuran ini menjawab
+          "seberapa besar dampaknya?". Sebagai patokan: sekitar 0,2 dianggap kecil,
+          0,5 sedang, dan 0,8 ke atas dianggap besar.
+        </p>
+      </div>
+      <div class="glossary-item">
+        <div class="term">Balance check <span class="abbr">uji kesetaraan</span></div>
+        <p class="def">
+          Pengecekan untuk memastikan kedua kelompok (penerima dan pembanding) memang
+          sudah setara sejak awal &mdash; usia, pendidikan, status pernikahan, dan
+          seterusnya tidak berbeda jauh &mdash; sehingga hasil perbandingan tidak bias
+          karena kedua kelompok memang beda dari sananya.
+        </p>
+      </div>
+      <div class="glossary-item">
+        <div class="term">Sensitivity check <span class="abbr">uji ketahanan</span></div>
+        <p class="def">
+          Mengulangi seluruh analisis dengan cara teknis yang sedikit berbeda-beda,
+          untuk memastikan hasil utama tidak berubah drastis hanya karena satu pilihan
+          teknis tertentu. Kalau hasilnya tetap konsisten, artinya temuan itu kokoh.
+        </p>
+      </div>
+    </div>
+  </details>
 
   <!-- HEADLINE -->
   <div class="headline">
